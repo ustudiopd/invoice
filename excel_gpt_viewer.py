@@ -425,10 +425,12 @@ class ExcelGPTViewer(QMainWindow):
                         row=r, column=header_map.get("day") + 1
                     ).value if header_map.get("day") is not None else None
                     unit_cost = ws.cell(
-                        row=r, column=header_map.get("Unit Cost") + 1
+                        row=r,
+                        column=header_map.get("Unit Cost") + 1
                     ).value if header_map.get("Unit Cost") is not None else None
                     total_amount = ws.cell(
-                        row=r, column=header_map.get("Total Amount") + 1
+                        row=r,
+                        column=header_map.get("Total Amount") + 1
                     ).value if header_map.get("Total Amount") is not None else None
 
                     item = {
@@ -495,7 +497,7 @@ class ExcelGPTViewer(QMainWindow):
                                 self.log(msg)
                             # 3) Indexed 컬러
                             elif (fg.type == 'indexed' and
-                                  fg.indexed is not None):
+                                fg.indexed is not None):
                                 from openpyxl.styles.colors import COLOR_INDEX
                                 idx = fg.indexed
                                 if 0 <= idx < len(COLOR_INDEX):
@@ -513,7 +515,7 @@ class ExcelGPTViewer(QMainWindow):
                                     self.log(msg)
                             # 4) Gradient Fill (첫 stop만 사용)
                             elif (hasattr(fill, 'gradientType')
-                                  and fill.gradientType):
+                                and fill.gradientType):
                                 stops = getattr(fill, 'stop', None)
                                 if (stops and hasattr(stops[0], 'color')
                                         and hasattr(stops[0].color, 'rgb')):
@@ -621,7 +623,7 @@ class ExcelGPTViewer(QMainWindow):
                     if key in header_labels:
                         # 오른쪽 셀 우선, 없으면 바로 아래 셀
                         val = ws.cell(row=r, column=c+1).value \
-                              or ws.cell(row=r+1, column=c).value
+                            or ws.cell(row=r+1, column=c).value
                         hdr[key] = val
             data_dict["meta"]["header"] = hdr
             
@@ -659,7 +661,13 @@ class ExcelGPTViewer(QMainWindow):
             
             data_dict["items"] = items  # 추출된 품목을 반드시 저장
             self.log(
-                f"최종 저장될 JSON 데이터: {json.dumps(data_dict, ensure_ascii=False, indent=2, default=str)}"
+                "최종 저장될 JSON 데이터: "
+                + json.dumps(
+                    data_dict,
+                    ensure_ascii=False,
+                    indent=2,
+                    default=str
+                )
             )
             # 6) JSON 파일 저장
             with open(json_path, "w", encoding="utf-8") as f:
