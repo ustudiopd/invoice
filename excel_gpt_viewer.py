@@ -87,66 +87,61 @@ class ZoomableTableWidget(QTableWidget):
         self.base_font_size = 9
         self.base_row_height = 20
         self.last_mouse_pos = None
-        # 특정 배율 목록 (90%, 100%, 125%, 150%, 175%, 200%, 250%)
         self.snap_zoom_levels = [0.9, 1.0, 1.25, 1.5, 1.75, 2.0, 2.5]
-        self.snap_threshold = 0.05  # 스냅 감지 임계값
+        self.snap_threshold = 0.05
+        # 초기 열 너비/행 높이 저장
+        self._init_col_widths = []
+        self._init_row_heights = []
+
+    def set_initial_sizes(self):
+        """초기 열 너비/행 높이 저장 (엑셀 로드 후 1회 호출)"""
+        self._init_col_widths = [
+            self.columnWidth(col)
+            for col in range(self.columnCount())
+        ]
+        self._init_row_heights = [
+            self.rowHeight(row)
+            for row in range(self.rowCount())
+        ]
 
     def wheelEvent(self, event):
-        """Ctrl + 휠로 확대/축소"""
+        """Ctrl + 휠로 확대/축소 (방향 전환 즉시 반응)"""
         if event.modifiers() == Qt.ControlModifier:
-            # 마우스 커서 위치 저장
             cursor_pos = event.pos()
             self.last_mouse_pos = cursor_pos
-            
-            # 현재 뷰포트에서의 상대적 위치 계산
             viewport_rect = self.viewport().rect()
             cursor_rel_x = cursor_pos.x() / viewport_rect.width()
             cursor_rel_y = cursor_pos.y() / viewport_rect.height()
-            
-            # 현재 스크롤 위치 저장
             h_scroll = self.horizontalScrollBar()
             v_scroll = self.verticalScrollBar()
-            
-            # 휠 델타값으로 확대/축소 방향 결정
             delta = event.angleDelta().y()
-            
             # 휠 방향에 따라 확대/축소
-            if delta > 0:  # 휠 업: 확대
+            if delta > 0:
                 new_zoom = min(
                     self.zoom_factor + self.zoom_step,
                     self.max_zoom
                 )
-            elif delta < 0:  # 휠 다운: 축소
+            elif delta < 0:
                 new_zoom = max(
                     self.zoom_factor - self.zoom_step,
                     self.min_zoom
                 )
-
+            else:
+                new_zoom = self.zoom_factor
             # 스냅 기능 적용
             new_zoom = self._apply_snap_zoom(new_zoom)
-            
-            # 확대/축소 비율이 변경된 경우에만 처리
-            if new_zoom != self.zoom_factor:
-                self.zoom_factor = new_zoom
-                
-                # 확대/축소 적용
-                self._apply_zoom()
-                
-                # 새로운 스크롤 위치 계산
-                new_h_max = h_scroll.maximum()
-                new_v_max = v_scroll.maximum()
-                
-                # 마우스 커서 위치 기준으로 스크롤 위치 조정
-                new_h_value = int(new_h_max * cursor_rel_x)
-                new_v_value = int(new_v_max * cursor_rel_y)
-                
-                # 스크롤 위치 업데이트
-                h_scroll.setValue(new_h_value)
-                v_scroll.setValue(new_v_value)
-            
+            # 무조건 zoom_factor 갱신 및 적용
+            self.zoom_factor = new_zoom
+            self._apply_zoom()
+            # 스크롤 위치 조정
+            new_h_max = h_scroll.maximum()
+            new_v_max = v_scroll.maximum()
+            new_h_value = int(new_h_max * cursor_rel_x)
+            new_v_value = int(new_v_max * cursor_rel_y)
+            h_scroll.setValue(new_h_value)
+            v_scroll.setValue(new_v_value)
             event.accept()
         else:
-            # Ctrl 키가 눌려있지 않으면 기본 스크롤 동작
             super().wheelEvent(event)
 
     def _apply_snap_zoom(self, zoom_value):
@@ -199,25 +194,23 @@ class ZoomableTableWidget(QTableWidget):
             v_scroll.setValue(new_v_value)
 
     def _apply_zoom(self):
-        """현재 zoom_factor를 적용"""
-        # 폰트 크기 조정
+        """현재 zoom_factor를 기준값에 곱해서 적용"""
+        # 폰트 크기
         font = self.font()
         font.setPointSizeF(self.base_font_size * self.zoom_factor)
         self.setFont(font)
-        
-        # 행 높이와 열 너비를 동시에 조정
+        # 행 높이
         for row in range(self.rowCount()):
-            self.setRowHeight(
-                row,
-                int(self.base_row_height * self.zoom_factor)
-            )
-        
+            base_h = self.base_row_height
+            if self._init_row_heights and row < len(self._init_row_heights):
+                base_h = self._init_row_heights[row]
+            self.setRowHeight(row, int(base_h * self.zoom_factor))
+        # 열 너비
         for col in range(self.columnCount()):
-            current_width = self.columnWidth(col)
-            self.setColumnWidth(
-                col,
-                int(current_width * self.zoom_factor)
-            )
+            base_w = 80
+            if self._init_col_widths and col < len(self._init_col_widths):
+                base_w = self._init_col_widths[col]
+            self.setColumnWidth(col, int(base_w * self.zoom_factor))
 
 
 class ExcelGPTViewer(QMainWindow):
