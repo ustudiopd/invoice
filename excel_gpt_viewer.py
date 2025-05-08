@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QPushButton, QFileDialog, QTableWidget, QTableWidgetItem,
     QFrame, QTextBrowser, QTextEdit, QSplitter, QLabel,
-    QMessageBox, QStyledItemDelegate, QSlider
+    QMessageBox, QStyledItemDelegate
 )
 from PyQt5.QtGui import QColor, QFont, QPen
 from PyQt5.QtCore import Qt
@@ -106,8 +106,6 @@ class ZoomableTableWidget(QTableWidget):
             # 현재 스크롤 위치 저장
             h_scroll = self.horizontalScrollBar()
             v_scroll = self.verticalScrollBar()
-            old_h_value = h_scroll.value()
-            old_v_value = v_scroll.value()
             
             # 휠 델타값으로 확대/축소 방향 결정
             delta = event.angleDelta().y()
@@ -145,16 +143,6 @@ class ZoomableTableWidget(QTableWidget):
                 # 스크롤 위치 업데이트
                 h_scroll.setValue(new_h_value)
                 v_scroll.setValue(new_v_value)
-                
-                # 슬라이더 값 업데이트
-                main_window = self.window()
-                if hasattr(main_window, 'zoom_slider'):
-                    main_window.zoom_slider.setValue(
-                        int(self.zoom_factor * 100)
-                    )
-                    main_window.zoom_value_label.setText(
-                        f"{int(self.zoom_factor * 100)}%"
-                    )
             
             event.accept()
         else:
@@ -265,6 +253,7 @@ class ExcelGPTViewer(QMainWindow):
         file_btn = QPushButton("엑셀 파일 열기")
         file_btn.clicked.connect(self.open_excel)
         top_layout.addWidget(file_btn)
+        excel_layout.addLayout(top_layout)
         
         # ZoomableTableWidget으로 변경
         self.excel_view = ZoomableTableWidget()
@@ -273,43 +262,7 @@ class ExcelGPTViewer(QMainWindow):
         # 셀별 테두리 그리도록 Delegate 설정
         self.excel_view.setItemDelegate(BorderDelegate(self.excel_view))
         self.excel_view.cellChanged.connect(self.on_cell_changed)
-        excel_layout.addLayout(top_layout)
-        
-        # ZoomableTableWidget으로 변경
         excel_layout.addWidget(self.excel_view)
-        
-        # 확대/축소 슬라이더를 위한 하단 레이아웃
-        bottom_layout = QHBoxLayout()
-        bottom_layout.setContentsMargins(8, 0, 8, 8)
-        
-        # 확대/축소 슬라이더 추가
-        zoom_layout = QHBoxLayout()
-        zoom_layout.setSpacing(4)
-        
-        zoom_label = QLabel("확대/축소:")
-        zoom_label.setStyleSheet("font-size: 10px;")
-        zoom_layout.addWidget(zoom_label)
-        
-        self.zoom_slider = QSlider(Qt.Horizontal)
-        self.zoom_slider.setMinimum(10)  # 10%
-        self.zoom_slider.setMaximum(250)  # 250%
-        self.zoom_slider.setValue(100)  # 기본값 100%
-        self.zoom_slider.setTickPosition(QSlider.TicksBelow)
-        self.zoom_slider.setTickInterval(20)
-        self.zoom_slider.setFixedWidth(150)  # 슬라이더 너비 조정
-        zoom_layout.addWidget(self.zoom_slider)
-        
-        self.zoom_value_label = QLabel("100%")
-        self.zoom_value_label.setStyleSheet("font-size: 10px;")
-        self.zoom_value_label.setFixedWidth(40)  # 레이블 너비 고정
-        zoom_layout.addWidget(self.zoom_value_label)
-        
-        bottom_layout.addLayout(zoom_layout)
-        bottom_layout.addStretch()  # 오른쪽 여백 추가
-        excel_layout.addLayout(bottom_layout)
-        
-        # 슬라이더 값 변경 시 확대/축소 적용
-        self.zoom_slider.valueChanged.connect(self.on_zoom_changed)
         
         self.splitter.addWidget(excel_panel)
 
@@ -711,11 +664,6 @@ class ExcelGPTViewer(QMainWindow):
         self.chat_output.append(answer)
         self.chat_input.clear()
         self.log("[작업] GPT 질문 전송 및 응답 수신 완료")
-
-    def on_zoom_changed(self, value):
-        """슬라이더 값 변경 시 호출되는 함수"""
-        self.zoom_value_label.setText(f"{value}%")
-        self.excel_view.set_zoom(value)
 
 
 def ask_gpt_api(messages, api_key, model):
