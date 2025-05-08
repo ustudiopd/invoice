@@ -286,6 +286,8 @@ class ExcelGPTViewer(QMainWindow):
         self.chat_input.setPlaceholderText("질문을 입력하세요...")
         self.chat_input.setMinimumHeight(40)
         self.chat_input.setStyleSheet("border:2px solid #000;")
+        # 엔터키 이벤트 추가
+        self.chat_input.installEventFilter(self)
         chat_layout.addWidget(self.chat_input)
         btn_layout = QHBoxLayout()
         btn_layout.addStretch(1)
@@ -360,19 +362,19 @@ class ExcelGPTViewer(QMainWindow):
             total_amount_keywords = [
                 "total amount", "금액", "합계", "amount"
             ]
+            won_keywords = ["won", "krw", "금액", "합계"]
 
             header_row = None
             header_map = {}
+            amount_candidates = []
             for r in range(1, ws.max_row + 1):
                 row_values = [
                     str(ws.cell(row=r, column=c).value).strip().lower()
                     if ws.cell(row=r, column=c).value is not None else ""
                     for c in range(1, ws.max_column + 1)
                 ]
-                self.log(f"row {r} values: {row_values}")
                 for idx, val in enumerate(row_values):
                     if any(k in val for k in header_keywords):
-                        # '상세 내역'이 있으면 Description, 아니면 Item
                         if "상세" in val:
                             header_map["Description"] = idx
                         else:
@@ -384,14 +386,25 @@ class ExcelGPTViewer(QMainWindow):
                     if any(k in val for k in unit_cost_keywords):
                         header_map["Unit Cost"] = idx
                     if any(k in val for k in total_amount_keywords):
-                        header_map["Total Amount"] = idx
-                if (
-                    ("Item" in header_map or "Description" in header_map) and
-                    "Quantity" in header_map and
-                    "day" in header_map and
-                    "Unit Cost" in header_map and
-                    "Total Amount" in header_map
-                ):
+                        amount_candidates.append((idx, val))
+                # amount 후보가 여러 개면 원화 관련 키워드가 포함된 열을 우선 지정
+                if amount_candidates:
+                    for idx, val in amount_candidates:
+                        if any(w in val for w in won_keywords):
+                            header_map["Total Amount"] = idx
+                            break
+                    else:
+                        header_map["Total Amount"] = amount_candidates[0][0]
+                # 주요 필드 중 3개 이상 매칭되면 헤더로 인식
+                header_fields = [
+                    "Item",
+                    "Description",
+                    "Quantity",
+                    "Unit Cost",
+                    "Total Amount"
+                ]
+                match_count = sum(1 for f in header_fields if f in header_map)
+                if match_count >= 3:
                     header_row = r
                     break
 
@@ -424,14 +437,30 @@ class ExcelGPTViewer(QMainWindow):
                     day = ws.cell(
                         row=r, column=header_map.get("day") + 1
                     ).value if header_map.get("day") is not None else None
-                    unit_cost = ws.cell(
-                        row=r,
-                        column=header_map.get("Unit Cost") + 1
-                    ).value if header_map.get("Unit Cost") is not None else None
-                    total_amount = ws.cell(
-                        row=r,
-                        column=header_map.get("Total Amount") + 1
-                    ).value if header_map.get("Total Amount") is not None else None
+                    unit_cost = (
+                        ws.cell(
+                            row=r,
+                            column=(
+                                header_map.get(
+                                    "Unit Cost"
+                                ) + 1
+                            )
+                        ).value if header_map.get(
+                            "Unit Cost"
+                        ) is not None else None
+                    )
+                    total_amount = (
+                        ws.cell(
+                            row=r,
+                            column=(
+                                header_map.get(
+                                    "Total Amount"
+                                ) + 1
+                            )
+                        ).value if header_map.get(
+                            "Total Amount"
+                        ) is not None else None
+                    )
 
                     item = {
                         "description": str(item_name),
@@ -470,13 +499,6 @@ class ExcelGPTViewer(QMainWindow):
                                 tint = getattr(fg, 'tint', 0.0)
                                 hex_rgb = accent_colors[1]
                                 color = apply_tint(hex_rgb, tint)
-                                msg = (
-                                    f"[THEME+TINT:파랑] ({r},{c}) "
-                                    f"tint={tint} {hex_rgb} → "
-                                    f"({color.red()},{color.green()},"
-                                    f"{color.blue()}) 적용"
-                                )
-                                self.log(msg)
                             # 2) RGB 컬러
                             elif fg.type == 'rgb' and fg.rgb:
                                 rgb = (
@@ -489,15 +511,11 @@ class ExcelGPTViewer(QMainWindow):
                                     int(rgb[2:4], 16),
                                     int(rgb[4:6], 16)
                                 )
-                                msg = (
-                                    f"[RGB] ({r},{c}) {rgb} → "
-                                    f"({color.red()},{color.green()},"
-                                    f"{color.blue()}) 적용"
-                                )
-                                self.log(msg)
                             # 3) Indexed 컬러
-                            elif (fg.type == 'indexed' and
-                                fg.indexed is not None):
+                            elif (
+                                fg.type == 'indexed' and
+                                fg.indexed is not None
+                            ):
                                 from openpyxl.styles.colors import COLOR_INDEX
                                 idx = fg.indexed
                                 if 0 <= idx < len(COLOR_INDEX):
@@ -507,18 +525,17 @@ class ExcelGPTViewer(QMainWindow):
                                         int(hexcol[2:4], 16),
                                         int(hexcol[4:6], 16)
                                     )
-                                    msg = (
-                                        f"[INDEXED] ({r},{c}) idx={idx} "
-                                        f"{hexcol} → ({color.red()},"
-                                        f"{color.green()},{color.blue()}) 적용"
-                                    )
-                                    self.log(msg)
                             # 4) Gradient Fill (첫 stop만 사용)
-                            elif (hasattr(fill, 'gradientType')
-                                and fill.gradientType):
+                            elif (
+                                hasattr(fill, 'gradientType') and
+                                fill.gradientType
+                            ):
                                 stops = getattr(fill, 'stop', None)
-                                if (stops and hasattr(stops[0], 'color')
-                                        and hasattr(stops[0].color, 'rgb')):
+                                if (
+                                    stops and
+                                    hasattr(stops[0], 'color') and
+                                    hasattr(stops[0].color, 'rgb')
+                                ):
                                     rgb = (
                                         stops[0].color.rgb[2:]
                                         if stops[0].color.rgb.startswith('FF')
@@ -529,12 +546,6 @@ class ExcelGPTViewer(QMainWindow):
                                         int(rgb[2:4], 16),
                                         int(rgb[4:6], 16)
                                     )
-                                    msg = (
-                                        f"[GRADIENT] ({r},{c}) {rgb} → "
-                                        f"({color.red()},{color.green()},"
-                                        f"{color.blue()}) 적용"
-                                    )
-                                    self.log(msg)
                     except Exception as e:
                         self.log(f"[ERROR] ({r},{c}) 색상 파싱 오류: {e}")
                     if (color and (color.red(), color.green(), color.blue())
@@ -660,15 +671,6 @@ class ExcelGPTViewer(QMainWindow):
             data_dict["header"] = header
             
             data_dict["items"] = items  # 추출된 품목을 반드시 저장
-            self.log(
-                "최종 저장될 JSON 데이터: "
-                + json.dumps(
-                    data_dict,
-                    ensure_ascii=False,
-                    indent=2,
-                    default=str
-                )
-            )
             # 6) JSON 파일 저장
             with open(json_path, "w", encoding="utf-8") as f:
                 json.dump(
@@ -681,8 +683,6 @@ class ExcelGPTViewer(QMainWindow):
             self.log(f"[작업] JSON 파일 저장: {json_path}")
 
             data_dict["items"] = items  # 추출된 품목을 명확히 할당
-            self.log(f"추출된 품목: {items}")
-            self.log(f"헤더 행: {header_row}, header_map: {header_map}")
         except Exception as e:
             self.log(f"[오류] 엑셀 파일 열기 실패: {e}")
             QMessageBox.critical(
@@ -795,6 +795,20 @@ class ExcelGPTViewer(QMainWindow):
         self.chat_output.append(answer)
         self.chat_input.clear()
         self.log("[작업] GPT 질문 전송 및 응답 수신 완료")
+
+    def eventFilter(self, obj, event):
+        """이벤트 필터: 엔터키로 질문 전송"""
+        if (
+            obj == self.chat_input and
+            event.type() == event.KeyPress
+        ):
+            if (
+                event.key() == Qt.Key_Return and
+                event.modifiers() == Qt.NoModifier
+            ):
+                self.ask_gpt()
+                return True
+        return super().eventFilter(obj, event)
 
 
 def ask_gpt_api(messages, api_key, model):
