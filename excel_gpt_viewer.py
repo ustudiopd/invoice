@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QPushButton, QFileDialog, QTableWidget, QTableWidgetItem,
     QFrame, QTextBrowser, QTextEdit, QSplitter, QLabel,
-    QMessageBox, QStyledItemDelegate, QSlider
+    QMessageBox, QStyledItemDelegate
 )
 from PyQt5.QtGui import QColor, QFont, QPen
 from PyQt5.QtCore import Qt
@@ -106,8 +106,6 @@ class ZoomableTableWidget(QTableWidget):
             # 현재 스크롤 위치 저장
             h_scroll = self.horizontalScrollBar()
             v_scroll = self.verticalScrollBar()
-            old_h_value = h_scroll.value()
-            old_v_value = v_scroll.value()
             
             # 휠 델타값으로 확대/축소 방향 결정
             delta = event.angleDelta().y()
@@ -145,16 +143,6 @@ class ZoomableTableWidget(QTableWidget):
                 # 스크롤 위치 업데이트
                 h_scroll.setValue(new_h_value)
                 v_scroll.setValue(new_v_value)
-                
-                # 슬라이더 값 업데이트
-                main_window = self.window()
-                if hasattr(main_window, 'zoom_slider'):
-                    main_window.zoom_slider.setValue(
-                        int(self.zoom_factor * 100)
-                    )
-                    main_window.zoom_value_label.setText(
-                        f"{int(self.zoom_factor * 100)}%"
-                    )
             
             event.accept()
         else:
@@ -265,6 +253,7 @@ class ExcelGPTViewer(QMainWindow):
         file_btn = QPushButton("엑셀 파일 열기")
         file_btn.clicked.connect(self.open_excel)
         top_layout.addWidget(file_btn)
+        excel_layout.addLayout(top_layout)
         
         # ZoomableTableWidget으로 변경
         self.excel_view = ZoomableTableWidget()
@@ -273,43 +262,7 @@ class ExcelGPTViewer(QMainWindow):
         # 셀별 테두리 그리도록 Delegate 설정
         self.excel_view.setItemDelegate(BorderDelegate(self.excel_view))
         self.excel_view.cellChanged.connect(self.on_cell_changed)
-        excel_layout.addLayout(top_layout)
-        
-        # ZoomableTableWidget으로 변경
         excel_layout.addWidget(self.excel_view)
-        
-        # 확대/축소 슬라이더를 위한 하단 레이아웃
-        bottom_layout = QHBoxLayout()
-        bottom_layout.setContentsMargins(8, 0, 8, 8)
-        
-        # 확대/축소 슬라이더 추가
-        zoom_layout = QHBoxLayout()
-        zoom_layout.setSpacing(4)
-        
-        zoom_label = QLabel("확대/축소:")
-        zoom_label.setStyleSheet("font-size: 10px;")
-        zoom_layout.addWidget(zoom_label)
-        
-        self.zoom_slider = QSlider(Qt.Horizontal)
-        self.zoom_slider.setMinimum(10)  # 10%
-        self.zoom_slider.setMaximum(250)  # 250%
-        self.zoom_slider.setValue(100)  # 기본값 100%
-        self.zoom_slider.setTickPosition(QSlider.TicksBelow)
-        self.zoom_slider.setTickInterval(20)
-        self.zoom_slider.setFixedWidth(150)  # 슬라이더 너비 조정
-        zoom_layout.addWidget(self.zoom_slider)
-        
-        self.zoom_value_label = QLabel("100%")
-        self.zoom_value_label.setStyleSheet("font-size: 10px;")
-        self.zoom_value_label.setFixedWidth(40)  # 레이블 너비 고정
-        zoom_layout.addWidget(self.zoom_value_label)
-        
-        bottom_layout.addLayout(zoom_layout)
-        bottom_layout.addStretch()  # 오른쪽 여백 추가
-        excel_layout.addLayout(bottom_layout)
-        
-        # 슬라이더 값 변경 시 확대/축소 적용
-        self.zoom_slider.valueChanged.connect(self.on_zoom_changed)
         
         self.splitter.addWidget(excel_panel)
 
@@ -333,6 +286,8 @@ class ExcelGPTViewer(QMainWindow):
         self.chat_input.setPlaceholderText("질문을 입력하세요...")
         self.chat_input.setMinimumHeight(40)
         self.chat_input.setStyleSheet("border:2px solid #000;")
+        # 엔터키 이벤트 추가
+        self.chat_input.installEventFilter(self)
         chat_layout.addWidget(self.chat_input)
         btn_layout = QHBoxLayout()
         btn_layout.addStretch(1)
@@ -393,6 +348,129 @@ class ExcelGPTViewer(QMainWindow):
             table.setRowCount(rows)
             table.setColumnCount(cols)
 
+            # 헤더 키워드 정의 (부분 일치, 한글/영문 혼용)
+            header_keywords = [
+                "item", "품목", "항목", "품명",
+                "상세 내역", "상 세 내 역", "상세내역",
+                "description"
+            ]
+            quantity_keywords = ["quantity", "수량", "quant", "qty"]
+            day_keywords = ["day", "일수"]
+            unit_cost_keywords = [
+                "unit cost", "단가", "unit krw", "unit"
+            ]
+            total_amount_keywords = [
+                "total amount", "금액", "합계", "amount"
+            ]
+            won_keywords = ["won", "krw", "금액", "합계"]
+
+            header_row = None
+            header_map = {}
+            amount_candidates = []
+            for r in range(1, ws.max_row + 1):
+                row_values = [
+                    str(ws.cell(row=r, column=c).value).strip().lower()
+                    if ws.cell(row=r, column=c).value is not None else ""
+                    for c in range(1, ws.max_column + 1)
+                ]
+                for idx, val in enumerate(row_values):
+                    if any(k in val for k in header_keywords):
+                        if "상세" in val:
+                            header_map["Description"] = idx
+                        else:
+                            header_map["Item"] = idx
+                    if any(k in val for k in quantity_keywords):
+                        header_map["Quantity"] = idx
+                    if any(k in val for k in day_keywords):
+                        header_map["day"] = idx
+                    if any(k in val for k in unit_cost_keywords):
+                        header_map["Unit Cost"] = idx
+                    if any(k in val for k in total_amount_keywords):
+                        amount_candidates.append((idx, val))
+                # amount 후보가 여러 개면 원화 관련 키워드가 포함된 열을 우선 지정
+                if amount_candidates:
+                    for idx, val in amount_candidates:
+                        if any(w in val for w in won_keywords):
+                            header_map["Total Amount"] = idx
+                            break
+                    else:
+                        header_map["Total Amount"] = amount_candidates[0][0]
+                # 주요 필드 중 3개 이상 매칭되면 헤더로 인식
+                header_fields = [
+                    "Item",
+                    "Description",
+                    "Quantity",
+                    "Unit Cost",
+                    "Total Amount"
+                ]
+                match_count = sum(1 for f in header_fields if f in header_map)
+                if match_count >= 3:
+                    header_row = r
+                    break
+
+            items = []
+            if header_row:
+                for r in range(header_row + 1, ws.max_row + 1):
+                    # 한 행의 모든 셀 텍스트를 합쳐 description으로 사용
+                    row_texts = [
+                        str(ws.cell(row=r, column=c+1).value).strip()
+                        for c in range(ws.max_column)
+                        if (
+                            ws.cell(row=r, column=c+1).value is not None and
+                            str(ws.cell(row=r, column=c+1).value).strip() != ""
+                        )
+                    ]
+                    item_name = " | ".join(row_texts) if row_texts else None
+                    # 불필요한 행(합계, 참고, VAT, 총액 등) 및 빈/짧은 행 제외
+                    if (
+                        not item_name or
+                        str(item_name).strip() == "" or
+                        len(str(item_name).strip()) <= 2 or
+                        any(x in str(item_name) for x in [
+                            "합계", "총액", "vat", "참고"
+                        ])
+                    ):
+                        continue
+                    quantity = ws.cell(
+                        row=r, column=header_map.get("Quantity") + 1
+                    ).value if header_map.get("Quantity") is not None else None
+                    day = ws.cell(
+                        row=r, column=header_map.get("day") + 1
+                    ).value if header_map.get("day") is not None else None
+                    unit_cost = (
+                        ws.cell(
+                            row=r,
+                            column=(
+                                header_map.get(
+                                    "Unit Cost"
+                                ) + 1
+                            )
+                        ).value if header_map.get(
+                            "Unit Cost"
+                        ) is not None else None
+                    )
+                    total_amount = (
+                        ws.cell(
+                            row=r,
+                            column=(
+                                header_map.get(
+                                    "Total Amount"
+                                ) + 1
+                            )
+                        ).value if header_map.get(
+                            "Total Amount"
+                        ) is not None else None
+                    )
+
+                    item = {
+                        "description": str(item_name),
+                        "quantity": quantity,
+                        "day": day,
+                        "unit_price": unit_cost,
+                        "amount": total_amount
+                    }
+                    items.append(item)
+
             # 셀 값, 폰트, 배경, 정렬, 테두리(UserRole에 정보 저장)
             for r in range(1, rows+1):
                 for c in range(1, cols+1):
@@ -421,13 +499,6 @@ class ExcelGPTViewer(QMainWindow):
                                 tint = getattr(fg, 'tint', 0.0)
                                 hex_rgb = accent_colors[1]
                                 color = apply_tint(hex_rgb, tint)
-                                msg = (
-                                    f"[THEME+TINT:파랑] ({r},{c}) "
-                                    f"tint={tint} {hex_rgb} → "
-                                    f"({color.red()},{color.green()},"
-                                    f"{color.blue()}) 적용"
-                                )
-                                self.log(msg)
                             # 2) RGB 컬러
                             elif fg.type == 'rgb' and fg.rgb:
                                 rgb = (
@@ -440,15 +511,11 @@ class ExcelGPTViewer(QMainWindow):
                                     int(rgb[2:4], 16),
                                     int(rgb[4:6], 16)
                                 )
-                                msg = (
-                                    f"[RGB] ({r},{c}) {rgb} → "
-                                    f"({color.red()},{color.green()},"
-                                    f"{color.blue()}) 적용"
-                                )
-                                self.log(msg)
                             # 3) Indexed 컬러
-                            elif (fg.type == 'indexed' and
-                                  fg.indexed is not None):
+                            elif (
+                                fg.type == 'indexed' and
+                                fg.indexed is not None
+                            ):
                                 from openpyxl.styles.colors import COLOR_INDEX
                                 idx = fg.indexed
                                 if 0 <= idx < len(COLOR_INDEX):
@@ -458,18 +525,17 @@ class ExcelGPTViewer(QMainWindow):
                                         int(hexcol[2:4], 16),
                                         int(hexcol[4:6], 16)
                                     )
-                                    msg = (
-                                        f"[INDEXED] ({r},{c}) idx={idx} "
-                                        f"{hexcol} → ({color.red()},"
-                                        f"{color.green()},{color.blue()}) 적용"
-                                    )
-                                    self.log(msg)
                             # 4) Gradient Fill (첫 stop만 사용)
-                            elif (hasattr(fill, 'gradientType')
-                                  and fill.gradientType):
+                            elif (
+                                hasattr(fill, 'gradientType') and
+                                fill.gradientType
+                            ):
                                 stops = getattr(fill, 'stop', None)
-                                if (stops and hasattr(stops[0], 'color')
-                                        and hasattr(stops[0].color, 'rgb')):
+                                if (
+                                    stops and
+                                    hasattr(stops[0], 'color') and
+                                    hasattr(stops[0].color, 'rgb')
+                                ):
                                     rgb = (
                                         stops[0].color.rgb[2:]
                                         if stops[0].color.rgb.startswith('FF')
@@ -480,12 +546,6 @@ class ExcelGPTViewer(QMainWindow):
                                         int(rgb[2:4], 16),
                                         int(rgb[4:6], 16)
                                     )
-                                    msg = (
-                                        f"[GRADIENT] ({r},{c}) {rgb} → "
-                                        f"({color.red()},{color.green()},"
-                                        f"{color.blue()}) 적용"
-                                    )
-                                    self.log(msg)
                     except Exception as e:
                         self.log(f"[ERROR] ({r},{c}) 색상 파싱 오류: {e}")
                     if (color and (color.red(), color.green(), color.blue())
@@ -557,27 +617,48 @@ class ExcelGPTViewer(QMainWindow):
             data_dict.setdefault("meta", {})
             data_dict["meta"]["file_name"] = os.path.basename(path)
             
-            # 3) 헤더 정보 (C3:D6)
-            headers = {}
-            for r in (3, 4, 5, 6):
-                key = ws.cell(row=r, column=3).value
-                val = ws.cell(row=r, column=4).value
-                if key:
-                    headers[str(key).strip()] = val
-            data_dict["meta"]["header"] = headers
+            # 3) 헤더 정보: 워크시트 상단에서 라벨-값 쌍 자동 추출
+            hdr = {}
+            # 지원할 라벨 키워드 목록 (기존/새 포맷 혼용)
+            header_labels = [
+                "DATE", "QUOTATION #", "Payment date", "SHIP TO",
+                "발급일", "공급자", "등록번호", "상호", "대표이사", "사업자 주소"
+            ]
+            # 상단 1~15행, 전체 열을 뒤져서, 키가 발견되면 오른쪽 셀 또는 아래 셀 값을 가져옴
+            for r in range(1, 16):
+                for c in range(1, ws.max_column):
+                    raw = ws.cell(row=r, column=c).value
+                    if raw is None:
+                        continue
+                    key = str(raw).strip().rstrip(":")
+                    if key in header_labels:
+                        # 오른쪽 셀 우선, 없으면 바로 아래 셀
+                        val = ws.cell(row=r, column=c+1).value \
+                            or ws.cell(row=r+1, column=c).value
+                        hdr[key] = val
+            data_dict["meta"]["header"] = hdr
             
-            # 4) 요약 정보: D열에서 라벨을 찾아서, E열 값을 동적으로 추출
+            # 4) 요약 정보: 워크시트 전체에서 합계/세금 등 라벨-값 자동 추출
             summary = {}
-            labels = {"TOTAL", "Tax rate", "Tax due", "Other", "TOTAL Due"}
+            # 내부 필드명: [매칭할 키워드 리스트]
+            summary_labels = {
+                "subtotal":   ["Sub total", "소계"],
+                "tax_rate":   ["Tax rate", "세율"],
+                "tax_due":    ["Tax due", "세금", "Tax due"],
+                "other":      ["Other", "기타"],
+                "total_due":  ["TOTAL Due", "총액", "합계", "TOTAL"]
+            }
+            # 전체 영역 순회
             for r in range(1, ws.max_row + 1):
-                raw = ws.cell(row=r, column=4).value  # D열 레이블 조회
-                if not raw:
-                    continue
-                key = str(raw).strip()
-                if key in labels:
-                    summary[key] = ws.cell(row=r, column=5).value  # E열 값 저장
-                    if set(summary.keys()) == labels:
-                        break
+                for c in range(1, ws.max_column):
+                    raw = ws.cell(row=r, column=c).value
+                    if raw is None:
+                        continue
+                    txt = str(raw).strip()
+                    for fld, keys in summary_labels.items():
+                        if any(k in txt for k in keys):
+                            # 값은 오른쪽 셀에서 가져오기
+                            summary[fld] = ws.cell(row=r, column=c+1).value
             data_dict["summary"] = summary
 
             # 5) 상단 고정 레이블: D3:E9 범위 읽어 header로 저장
@@ -589,6 +670,7 @@ class ExcelGPTViewer(QMainWindow):
                     header[key] = ws.cell(row=r, column=5).value  # E열
             data_dict["header"] = header
             
+            data_dict["items"] = items  # 추출된 품목을 반드시 저장
             # 6) JSON 파일 저장
             with open(json_path, "w", encoding="utf-8") as f:
                 json.dump(
@@ -599,6 +681,8 @@ class ExcelGPTViewer(QMainWindow):
                     default=str
                 )
             self.log(f"[작업] JSON 파일 저장: {json_path}")
+
+            data_dict["items"] = items  # 추출된 품목을 명확히 할당
         except Exception as e:
             self.log(f"[오류] 엑셀 파일 열기 실패: {e}")
             QMessageBox.critical(
@@ -712,10 +796,19 @@ class ExcelGPTViewer(QMainWindow):
         self.chat_input.clear()
         self.log("[작업] GPT 질문 전송 및 응답 수신 완료")
 
-    def on_zoom_changed(self, value):
-        """슬라이더 값 변경 시 호출되는 함수"""
-        self.zoom_value_label.setText(f"{value}%")
-        self.excel_view.set_zoom(value)
+    def eventFilter(self, obj, event):
+        """이벤트 필터: 엔터키로 질문 전송"""
+        if (
+            obj == self.chat_input and
+            event.type() == event.KeyPress
+        ):
+            if (
+                event.key() == Qt.Key_Return and
+                event.modifiers() == Qt.NoModifier
+            ):
+                self.ask_gpt()
+                return True
+        return super().eventFilter(obj, event)
 
 
 def ask_gpt_api(messages, api_key, model):
