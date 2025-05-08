@@ -346,6 +346,100 @@ class ExcelGPTViewer(QMainWindow):
             table.setRowCount(rows)
             table.setColumnCount(cols)
 
+            # 헤더 키워드 정의 (부분 일치, 한글/영문 혼용)
+            header_keywords = [
+                "item", "품목", "항목", "품명",
+                "상세 내역", "상 세 내 역", "상세내역",
+                "description"
+            ]
+            quantity_keywords = ["quantity", "수량", "quant", "qty"]
+            day_keywords = ["day", "일수"]
+            unit_cost_keywords = [
+                "unit cost", "단가", "unit krw", "unit"
+            ]
+            total_amount_keywords = [
+                "total amount", "금액", "합계", "amount"
+            ]
+
+            header_row = None
+            header_map = {}
+            for r in range(1, ws.max_row + 1):
+                row_values = [
+                    str(ws.cell(row=r, column=c).value).strip().lower()
+                    if ws.cell(row=r, column=c).value is not None else ""
+                    for c in range(1, ws.max_column + 1)
+                ]
+                self.log(f"row {r} values: {row_values}")
+                for idx, val in enumerate(row_values):
+                    if any(k in val for k in header_keywords):
+                        # '상세 내역'이 있으면 Description, 아니면 Item
+                        if "상세" in val:
+                            header_map["Description"] = idx
+                        else:
+                            header_map["Item"] = idx
+                    if any(k in val for k in quantity_keywords):
+                        header_map["Quantity"] = idx
+                    if any(k in val for k in day_keywords):
+                        header_map["day"] = idx
+                    if any(k in val for k in unit_cost_keywords):
+                        header_map["Unit Cost"] = idx
+                    if any(k in val for k in total_amount_keywords):
+                        header_map["Total Amount"] = idx
+                if (
+                    ("Item" in header_map or "Description" in header_map) and
+                    "Quantity" in header_map and
+                    "day" in header_map and
+                    "Unit Cost" in header_map and
+                    "Total Amount" in header_map
+                ):
+                    header_row = r
+                    break
+
+            items = []
+            if header_row:
+                for r in range(header_row + 1, ws.max_row + 1):
+                    # 한 행의 모든 셀 텍스트를 합쳐 description으로 사용
+                    row_texts = [
+                        str(ws.cell(row=r, column=c+1).value).strip()
+                        for c in range(ws.max_column)
+                        if (
+                            ws.cell(row=r, column=c+1).value is not None and
+                            str(ws.cell(row=r, column=c+1).value).strip() != ""
+                        )
+                    ]
+                    item_name = " | ".join(row_texts) if row_texts else None
+                    # 불필요한 행(합계, 참고, VAT, 총액 등) 및 빈/짧은 행 제외
+                    if (
+                        not item_name or
+                        str(item_name).strip() == "" or
+                        len(str(item_name).strip()) <= 2 or
+                        any(x in str(item_name) for x in [
+                            "합계", "총액", "vat", "참고"
+                        ])
+                    ):
+                        continue
+                    quantity = ws.cell(
+                        row=r, column=header_map.get("Quantity") + 1
+                    ).value if header_map.get("Quantity") is not None else None
+                    day = ws.cell(
+                        row=r, column=header_map.get("day") + 1
+                    ).value if header_map.get("day") is not None else None
+                    unit_cost = ws.cell(
+                        row=r, column=header_map.get("Unit Cost") + 1
+                    ).value if header_map.get("Unit Cost") is not None else None
+                    total_amount = ws.cell(
+                        row=r, column=header_map.get("Total Amount") + 1
+                    ).value if header_map.get("Total Amount") is not None else None
+
+                    item = {
+                        "description": str(item_name),
+                        "quantity": quantity,
+                        "day": day,
+                        "unit_price": unit_cost,
+                        "amount": total_amount
+                    }
+                    items.append(item)
+
             # 셀 값, 폰트, 배경, 정렬, 테두리(UserRole에 정보 저장)
             for r in range(1, rows+1):
                 for c in range(1, cols+1):
@@ -510,27 +604,48 @@ class ExcelGPTViewer(QMainWindow):
             data_dict.setdefault("meta", {})
             data_dict["meta"]["file_name"] = os.path.basename(path)
             
-            # 3) 헤더 정보 (C3:D6)
-            headers = {}
-            for r in (3, 4, 5, 6):
-                key = ws.cell(row=r, column=3).value
-                val = ws.cell(row=r, column=4).value
-                if key:
-                    headers[str(key).strip()] = val
-            data_dict["meta"]["header"] = headers
+            # 3) 헤더 정보: 워크시트 상단에서 라벨-값 쌍 자동 추출
+            hdr = {}
+            # 지원할 라벨 키워드 목록 (기존/새 포맷 혼용)
+            header_labels = [
+                "DATE", "QUOTATION #", "Payment date", "SHIP TO",
+                "발급일", "공급자", "등록번호", "상호", "대표이사", "사업자 주소"
+            ]
+            # 상단 1~15행, 전체 열을 뒤져서, 키가 발견되면 오른쪽 셀 또는 아래 셀 값을 가져옴
+            for r in range(1, 16):
+                for c in range(1, ws.max_column):
+                    raw = ws.cell(row=r, column=c).value
+                    if raw is None:
+                        continue
+                    key = str(raw).strip().rstrip(":")
+                    if key in header_labels:
+                        # 오른쪽 셀 우선, 없으면 바로 아래 셀
+                        val = ws.cell(row=r, column=c+1).value \
+                              or ws.cell(row=r+1, column=c).value
+                        hdr[key] = val
+            data_dict["meta"]["header"] = hdr
             
-            # 4) 요약 정보: D열에서 라벨을 찾아서, E열 값을 동적으로 추출
+            # 4) 요약 정보: 워크시트 전체에서 합계/세금 등 라벨-값 자동 추출
             summary = {}
-            labels = {"TOTAL", "Tax rate", "Tax due", "Other", "TOTAL Due"}
+            # 내부 필드명: [매칭할 키워드 리스트]
+            summary_labels = {
+                "subtotal":   ["Sub total", "소계"],
+                "tax_rate":   ["Tax rate", "세율"],
+                "tax_due":    ["Tax due", "세금", "Tax due"],
+                "other":      ["Other", "기타"],
+                "total_due":  ["TOTAL Due", "총액", "합계", "TOTAL"]
+            }
+            # 전체 영역 순회
             for r in range(1, ws.max_row + 1):
-                raw = ws.cell(row=r, column=4).value  # D열 레이블 조회
-                if not raw:
-                    continue
-                key = str(raw).strip()
-                if key in labels:
-                    summary[key] = ws.cell(row=r, column=5).value  # E열 값 저장
-                    if set(summary.keys()) == labels:
-                        break
+                for c in range(1, ws.max_column):
+                    raw = ws.cell(row=r, column=c).value
+                    if raw is None:
+                        continue
+                    txt = str(raw).strip()
+                    for fld, keys in summary_labels.items():
+                        if any(k in txt for k in keys):
+                            # 값은 오른쪽 셀에서 가져오기
+                            summary[fld] = ws.cell(row=r, column=c+1).value
             data_dict["summary"] = summary
 
             # 5) 상단 고정 레이블: D3:E9 범위 읽어 header로 저장
@@ -542,6 +657,10 @@ class ExcelGPTViewer(QMainWindow):
                     header[key] = ws.cell(row=r, column=5).value  # E열
             data_dict["header"] = header
             
+            data_dict["items"] = items  # 추출된 품목을 반드시 저장
+            self.log(
+                f"최종 저장될 JSON 데이터: {json.dumps(data_dict, ensure_ascii=False, indent=2, default=str)}"
+            )
             # 6) JSON 파일 저장
             with open(json_path, "w", encoding="utf-8") as f:
                 json.dump(
@@ -552,6 +671,10 @@ class ExcelGPTViewer(QMainWindow):
                     default=str
                 )
             self.log(f"[작업] JSON 파일 저장: {json_path}")
+
+            data_dict["items"] = items  # 추출된 품목을 명확히 할당
+            self.log(f"추출된 품목: {items}")
+            self.log(f"헤더 행: {header_row}, header_map: {header_map}")
         except Exception as e:
             self.log(f"[오류] 엑셀 파일 열기 실패: {e}")
             QMessageBox.critical(

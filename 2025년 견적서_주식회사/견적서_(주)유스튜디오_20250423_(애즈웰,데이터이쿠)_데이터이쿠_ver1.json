@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250423_(애즈웰,데이터이쿠)_데이터이쿠_ver1.xlsx",
+    "header": {
+      "발급일": "2025-05-02 00:00:00",
+      "등록번호": null,
+      "대표이사": "사 업 장\n주     소"
+    }
+  },
+  "items": [
+    {
+      "description": "운영대행 | 1 | 1 | 1600000 | 1600000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1600000,
+      "amount": 1600000
+    },
+    {
+      "description": "에이전시 스탭 | 2 | 1 | 300000 | 600000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": 600000
+    },
+    {
+      "description": "인력스텝 | 4 | 1 | 250000 | 1000000",
+      "quantity": 4,
+      "day": 1,
+      "unit_price": 250000,
+      "amount": 1000000
+    },
+    {
+      "description": "디자인 및 출력물 | 1 | 1 | 1250000 | 1250000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1250000,
+      "amount": 1250000
+    },
+    {
+      "description": "네임택 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": 300000
+    },
+    {
+      "description": "등록용 랩탑 | 2 | 1 | 100000 | 200000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": 200000
+    },
+    {
+      "description": "디자인 | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": 200000
+    },
+    {
+      "description": "제작물 | 1 | 1 | 400000 | 400000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 400000,
+      "amount": 400000
+    },
+    {
+      "description": "기타경비 | 1 | 1 | 150000 | 150000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 150000,
+      "amount": 150000
+    },
+    {
+      "description": "영상콘솔 | 1 | 1 | 900000 | 900000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 900000,
+      "amount": 900000
+    },
+    {
+      "description": "스위쳐 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": 300000
+    },
+    {
+      "description": "노트북 | 3 | 1 | 100000 | 300000",
+      "quantity": 3,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": 300000
+    },
+    {
+      "description": "프레젠터 | 1 | 1 | 100000 | 100000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": 100000
+    },
+    {
+      "description": "콘솔감독 | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": 200000
+    },
+    {
+      "description": "포토 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": 300000
+    },
+    {
+      "description": "사진촬영 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": 300000
+    },
+    {
+      "description": "기념품 | 1 | 1 | 1800000 | 1800000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1800000,
+      "amount": 1800000
+    },
+    {
+      "description": "기념품 | 100 | 1 | 11000 | 1100000",
+      "quantity": 100,
+      "day": 1,
+      "unit_price": 11000,
+      "amount": 1100000
+    },
+    {
+      "description": "스타벅스 상품권 | 10 | 1 | 30000 | 300000",
+      "quantity": 10,
+      "day": 1,
+      "unit_price": 30000,
+      "amount": 300000
+    },
+    {
+      "description": "신세계 상품권 | 2 | 1 | 200000 | 400000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": 400000
+    },
+    {
+      "description": "대행수수료 | 1 | 1 | 5850000 | 1150000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 5850000,
+      "amount": 1150000
+    },
+    {
+      "description": "행사 기획",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 7000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 7000000
+    },
+    {
+      "description": "V       A       T | 700000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 700000
+    },
+    {
+      "description": "총               액 | 7700000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 7700000
+    }
+  ],
+  "discounts": [],
+  "summary": {
+    "other": null
+  },
+  "comments": "",
+  "header": {
+    "등록번호": null,
+    "상    호": null,
+    "대표이사": null
+  }
+}

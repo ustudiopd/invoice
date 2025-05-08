@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "file_name": "Ustudio_INVOICE 20250326_(워트인텔리전스)_ver3.xlsx",
+    "header": {
+      "DATE": "2025-04-01 00:00:00",
+      "QUOTATION #": "20250326_1",
+      "Payment date": "SHIP TO ",
+      "SHIP TO": null
+    }
+  },
+  "items": [],
+  "discounts": [],
+  "summary": {
+    "total_due": 35688950,
+    "tax_rate": 0.1,
+    "tax_due": 3244450,
+    "other": 0
+  },
+  "comments": "",
+  "header": {
+    "DATE": "2025-04-01 00:00:00",
+    "QUOTATION #": "20250326_1",
+    "Payment date": null,
+    "SHIP TO": null,
+    "WOORI BANK  1005-903-051608": null,
+    "HVBKKRSEXXX": null
+  }
+}
