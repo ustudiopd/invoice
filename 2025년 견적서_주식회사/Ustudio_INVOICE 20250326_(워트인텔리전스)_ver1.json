@@ -1,0 +1,224 @@
+{
+  "meta": {},
+  "items": [
+    {
+      "category": "Planning and Venue (아모리스)",
+      "description": "Venue and purchase items",
+      "unit_price": 500000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 500000.0
+    },
+    {
+      "category": "Planning and Venue (아모리스)",
+      "description": "The day before the event",
+      "unit_price": 4400000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": null
+    },
+    {
+      "category": "Planning and Venue (아모리스)",
+      "description": "Parking ticket",
+      "unit_price": 13200.0,
+      "quantity": 100.0,
+      "unit_count": 1.0,
+      "amount": 1320000.0
+    },
+    {
+      "category": "Planning and Venue (아모리스)",
+      "description": "Standing Buffe",
+      "unit_price": 50000.0,
+      "quantity": 300.0,
+      "unit_count": 1.0,
+      "amount": 15000000.0
+    },
+    {
+      "category": "Event operations",
+      "description": "Planning and Program Organization",
+      "unit_price": 500000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 500000.0
+    },
+    {
+      "category": "Event operations",
+      "description": "PM (세미나장/ 로비)",
+      "unit_price": 300000.0,
+      "quantity": 2.0,
+      "unit_count": 1.0,
+      "amount": 600000.0
+    },
+    {
+      "category": "Event operations",
+      "description": "Staff",
+      "unit_price": 225000.0,
+      "quantity": 10.0,
+      "unit_count": 1.0,
+      "amount": 2250000.0
+    },
+    {
+      "category": "Registration system (Event-us) on-line",
+      "description": "Registration (QR , print, notebook)",
+      "unit_price": 300000.0,
+      "quantity": 4.0,
+      "unit_count": 1.0,
+      "amount": 1200000.0
+    },
+    {
+      "category": "Registration system (Event-us) on-line",
+      "description": "Name tag",
+      "unit_price": 4000.0,
+      "quantity": 350.0,
+      "unit_count": 1.0,
+      "amount": 1400000.0
+    },
+    {
+      "category": "Registration system (Event-us) on-line",
+      "description": "Staff meals (lunch ) & snack (아침 점심)",
+      "unit_price": 20000.0,
+      "quantity": 20.0,
+      "unit_count": 2.0,
+      "amount": 800000.0
+    },
+    {
+      "category": "Registration system (Event-us) on-line",
+      "description": "logistics cost (Installation and return)",
+      "unit_price": 200000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 200000.0
+    },
+    {
+      "category": "Gift",
+      "description": "Basic x banner",
+      "unit_price": 700000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 700000.0
+    },
+    {
+      "category": "Gift",
+      "description": "Main banner",
+      "unit_price": 500000.0,
+      "quantity": 2.0,
+      "unit_count": 1.0,
+      "amount": 1000000.0
+    },
+    {
+      "category": "Gift",
+      "description": "Foam board (podium,lobby)",
+      "unit_price": 300000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 300000.0
+    },
+    {
+      "category": "Gift",
+      "description": "Both material ( TV etc..)",
+      "unit_price": 1000000.0,
+      "quantity": 5.0,
+      "unit_count": 1.0,
+      "amount": 5000000.0
+    },
+    {
+      "category": "Gift",
+      "description": "logistics cost (Installation and return)",
+      "unit_price": 250000.0,
+      "quantity": 2.0,
+      "unit_count": 1.0,
+      "amount": 500000.0
+    },
+    {
+      "category": "AV system",
+      "description": "Photographer",
+      "unit_price": 800000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 800000.0
+    },
+    {
+      "category": "AV system",
+      "description": "Live streming",
+      "unit_price": 2500000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 2500000.0
+    },
+    {
+      "category": "AV system",
+      "description": "Av switcher",
+      "unit_price": 800000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 800000.0
+    },
+    {
+      "category": "AV system",
+      "description": "laptop and presenter",
+      "unit_price": 300000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 300000.0
+    },
+    {
+      "category": "AV system",
+      "description": "Tv for prompter",
+      "unit_price": 300000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 300000.0
+    },
+    {
+      "category": "AV system",
+      "description": "Av system engineer",
+      "unit_price": 300000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 300000.0
+    },
+    {
+      "category": "AV system",
+      "description": "Sound mixer",
+      "unit_price": 700000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 700000.0
+    },
+    {
+      "category": "AV system",
+      "description": "Microphone and antenna system",
+      "unit_price": 700000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 700000.0
+    },
+    {
+      "category": "AV system",
+      "description": "Sound engineer",
+      "unit_price": 300000.0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": 300000.0
+    },
+    {
+      "category": "Total",
+      "description": "agency fee 12%",
+      "unit_price": 37270000.0,
+      "quantity": 0.12,
+      "unit_count": 1.0,
+      "amount": 4472400.0
+    },
+    {
+      "category": "Total",
+      "description": "cut",
+      "unit_price": 0,
+      "quantity": 1.0,
+      "unit_count": 1.0,
+      "amount": null
+    }
+  ],
+  "discounts": [],
+  "summary": {},
+  "comments": ""
+}
