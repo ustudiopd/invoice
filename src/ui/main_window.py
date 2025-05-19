@@ -8,6 +8,7 @@ from PyQt5.QtCore import Qt
 from src.config.settings import GPT_API_KEY, GPT_MODEL
 from src.services.gpt_service import ask_gpt_api
 from src.services.excel_service import ExcelService
+from src.services.gpt_service import GPTService
 from src.ui.widgets.zoomable_table import ZoomableTableWidget
 from src.ui.widgets.border_delegate import BorderDelegate
 
@@ -15,11 +16,12 @@ from src.ui.widgets.border_delegate import BorderDelegate
 class ExcelGPTViewer(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Excel + GPT 분석기")
-        self.setGeometry(100, 100, 1400, 900)
+        self.setWindowTitle("Excel GPT Viewer")
+        self.setGeometry(100, 100, 1200, 800)
         self.json_path = None
         self.excel_path = None
         self.excel_service = ExcelService()
+        self.gpt_service = GPTService(GPT_API_KEY, GPT_MODEL)
 
         self._init_ui()
 
