@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import QTableWidgetItem
 from PyQt5.QtGui import QFont, QColor
 from PyQt5.QtCore import Qt
 from ..utils.color_utils import apply_tint
+import re
 
 
 class ExcelService:
@@ -17,147 +18,115 @@ class ExcelService:
         ws = wb.active
         rows, cols = ws.max_row, ws.max_column
         
-        # 테이블 초기화
-        table_widget.blockSignals(True)
-        table_widget.clear()
-        table_widget.setRowCount(rows)
-        table_widget.setColumnCount(cols)
+        if table_widget is not None:
+            table_widget.blockSignals(True)
+            table_widget.clear()
+            table_widget.setRowCount(rows)
+            table_widget.setColumnCount(cols)
 
-        # 헤더 정보 추출
-        header_row, header_map = self._extract_header_info(ws)
-        
-        # 품목 정보 추출
-        items = self._extract_items(ws, header_row, header_map)
+            # 헤더 정보 추출
+            header_row, header_map = self._extract_header_info(ws)
+            
+            # 품목 정보 추출
+            items = self._extract_items(ws, header_row, header_map)
 
-        # 셀 스타일 적용
-        self._apply_cell_styles(ws, table_widget)
+            # 셀 스타일 적용
+            self._apply_cell_styles(ws, table_widget)
 
-        # 병합 셀 처리
-        self._handle_merged_cells(ws, table_widget)
+            # 병합 셀 처리
+            self._handle_merged_cells(ws, table_widget)
 
-        # 열 너비/행 높이 설정
-        self._set_dimensions(ws, table_widget)
+            # 열 너비/행 높이 설정
+            self._set_dimensions(ws, table_widget)
 
-        table_widget.blockSignals(False)
+            table_widget.blockSignals(False)
+        else:
+            # UI 없이 데이터만 추출
+            header_row, header_map = self._extract_header_info(ws)
+            items = self._extract_items(ws, header_row, header_map)
 
         # JSON 파일 저장
         json_path = os.path.splitext(path)[0] + ".json"
         self._save_to_json(json_path, ws, items)
-
         return json_path, items
 
-    def _extract_header_info(self, ws):
-        """헤더 정보를 추출합니다."""
-        header_keywords = [
-            "item", "품목", "항목", "품명",
-            "상세 내역", "상 세 내 역", "상세내역",
-            "description"
-        ]
-        quantity_keywords = ["quantity", "수량", "quant", "qty"]
-        day_keywords = ["day", "일수"]
-        unit_cost_keywords = [
-            "unit cost", "단가", "unit krw", "unit"
-        ]
-        total_amount_keywords = [
-            "total amount", "금액", "합계", "amount"
-        ]
-        won_keywords = ["won", "krw", "금액", "합계"]
+    def normalize_header(self, text):
+        return re.sub(r'[^a-z0-9가-힣]', '', text.lower()) if text else ''
 
+    def _extract_header_info(self, ws, max_header_row=40):
         header_row = None
         header_map = {}
-        amount_candidates = []
-
-        for r in range(1, ws.max_row + 1):
+        unit_krw_candidates = [
+            "unitkrw", "unitcost", "unitprice", "단가", "단가원", "단가$", "unit", "unitkrw", "unit$"
+        ]
+        quantity_candidates = ["qty", "quantity", "수량"]
+        amount_candidates = ["amount", "totalamount", "금액", "합계"]
+        description_candidates = ["description", "item", "품목", "상세내역"]
+        unit_candidates = ["unit", "단위"]
+        remark_candidates = ["remark", "비고", "note"]
+        for r in range(1, min(ws.max_row, max_header_row) + 1):
             row_values = [
-                str(ws.cell(row=r, column=c).value).strip().lower()
+                str(ws.cell(row=r, column=c).value).strip() if ws.cell(row=r, column=c).value is not None else ""
+                for c in range(1, ws.max_column + 1)
+            ]
+            norm_row = [self.normalize_header(cell) for cell in row_values]
+            for idx, norm_cell in enumerate(norm_row):
+                if norm_cell in description_candidates:
+                    header_map["description"] = idx
+                if norm_cell in unit_krw_candidates:
+                    header_map["unit_krw"] = idx
+                if norm_cell in quantity_candidates:
+                    header_map["quantity"] = idx
+                if norm_cell in amount_candidates:
+                    header_map["amount"] = idx
+                if norm_cell in unit_candidates:
+                    header_map["unit"] = idx
+                if norm_cell in remark_candidates:
+                    header_map["remark"] = idx
+            if len(header_map) >= 2:
+                header_row = r
+                break
+        if not header_row or not header_map:
+            print(f"[헤더 인식 실패] row_values: {row_values}")
+            print(f"[헤더 인식 실패] header_map: {header_map}")
+        return header_row, header_map
+
+    def clean_number(self, val):
+        try:
+            if val is None or val == '':
+                return None
+            fval = float(val)
+            if fval.is_integer():
+                return int(fval)
+            return round(fval, 2)
+        except Exception:
+            return val
+
+    def _extract_items(self, ws, header_row, header_map):
+        items = []
+        if not header_row or not header_map:
+            return items
+        for r in range(header_row + 1, ws.max_row + 1):
+            row_values = [
+                str(ws.cell(row=r, column=c).value).strip()
                 if ws.cell(row=r, column=c).value is not None else ""
                 for c in range(1, ws.max_column + 1)
             ]
-            
-            for idx, val in enumerate(row_values):
-                if any(k in val for k in header_keywords):
-                    if "상세" in val:
-                        header_map["Description"] = idx
-                    else:
-                        header_map["Item"] = idx
-                if any(k in val for k in quantity_keywords):
-                    header_map["Quantity"] = idx
-                if any(k in val for k in day_keywords):
-                    header_map["day"] = idx
-                if any(k in val for k in unit_cost_keywords):
-                    header_map["Unit Cost"] = idx
-                if any(k in val for k in total_amount_keywords):
-                    amount_candidates.append((idx, val))
-
-            if amount_candidates:
-                for idx, val in amount_candidates:
-                    if any(w in val for w in won_keywords):
-                        header_map["Total Amount"] = idx
-                        break
-                else:
-                    header_map["Total Amount"] = amount_candidates[0][0]
-
-            header_fields = [
-                "Item", "Description", "Quantity",
-                "Unit Cost", "Total Amount"
-            ]
-            match_count = sum(1 for f in header_fields if f in header_map)
-            if match_count >= 3:
-                header_row = r
-                break
-
-        return header_row, header_map
-
-    def _extract_items(self, ws, header_row, header_map):
-        """품목 정보를 추출합니다."""
-        items = []
-        if header_row:
-            for r in range(header_row + 1, ws.max_row + 1):
-                row_texts = [
-                    str(ws.cell(row=r, column=c+1).value).strip()
-                    for c in range(ws.max_column)
-                    if (
-                        ws.cell(row=r, column=c+1).value is not None and
-                        str(ws.cell(row=r, column=c+1).value).strip() != ""
-                    )
-                ]
-                item_name = " | ".join(row_texts) if row_texts else None
-                
-                if (
-                    not item_name or
-                    str(item_name).strip() == "" or
-                    len(str(item_name).strip()) <= 2 or
-                    any(x in str(item_name) for x in [
-                        "합계", "총액", "vat", "참고"
-                    ])
-                ):
-                    continue
-
-                quantity = ws.cell(
-                    row=r, column=header_map.get("Quantity") + 1
-                ).value if header_map.get("Quantity") is not None else None
-                
-                day = ws.cell(
-                    row=r, column=header_map.get("day") + 1
-                ).value if header_map.get("day") is not None else None
-                
-                unit_cost = ws.cell(
-                    row=r, column=header_map.get("Unit Cost") + 1
-                ).value if header_map.get("Unit Cost") is not None else None
-                
-                total_amount = ws.cell(
-                    row=r, column=header_map.get("Total Amount") + 1
-                ).value if header_map.get("Total Amount") is not None else None
-
-                item = {
-                    "description": str(item_name),
-                    "quantity": quantity,
-                    "day": day,
-                    "unit_price": unit_cost,
-                    "amount": total_amount
-                }
-                items.append(item)
-
+            desc_idx = header_map.get("description")
+            if desc_idx is None or not row_values[desc_idx]:
+                continue
+            # summary 키워드 스킵
+            if any(k in row_values[desc_idx].lower() for k in ["합계", "총액", "vat", "참고", "소계", "tax", "total", "sum"]):
+                continue
+            item = {
+                "description": row_values[desc_idx],
+                "unit_krw": self.clean_number(row_values[header_map["unit_krw"]]) if "unit_krw" in header_map else None,
+                "quantity": self.clean_number(row_values[header_map["quantity"]]) if "quantity" in header_map else None,
+                "unit": row_values[header_map["unit"]] if "unit" in header_map else None,
+                "amount": self.clean_number(row_values[header_map["amount"]]) if "amount" in header_map else None,
+                "remark": row_values[header_map["remark"]] if "remark" in header_map else None
+            }
+            items.append(item)
         return items
 
     def _apply_cell_styles(self, ws, table_widget):

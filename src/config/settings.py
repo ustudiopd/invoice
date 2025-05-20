@@ -15,4 +15,4 @@ LOCAL_BID_FOLDER = os.getenv("LOCAL_BID_FOLDER", "")
 
 # ChatGPT 관련 환경변수
 GPT_API_KEY = os.getenv("CHATGPT_API_KEY", "")
-GPT_MODEL = os.getenv("CHATGPT_MODEL", "gpt-4.1-mini") 
+GPT_MODEL = "gpt-4.1-mini"  # 모델을 gpt-4.1-mini로 고정 

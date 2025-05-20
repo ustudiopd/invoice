@@ -21,4 +21,4 @@ def ask_gpt_api(messages, api_key, model):
         resp.raise_for_status()
         return resp.json()["choices"][0]["message"]["content"].strip()
     except Exception as e:
-        return f"[GPT 호출 오류] {e}" 
+        return f"[GPT 호출 오류] {e}"
