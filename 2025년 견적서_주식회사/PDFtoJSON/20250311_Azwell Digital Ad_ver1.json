@@ -1,0 +1,70 @@
+{
+  "견적번호": "",
+  "견적일자": "",
+  "거래처명": "",
+  "카테고리": [
+    {
+      "category": "Digital advertising platform _ linkedin _Google Ads",
+      "amount": 2000000,
+      "items": [
+        {
+          "품목명": "Digital advertising platform _ linkedin _Google Ads",
+          "수량": 1,
+          "단가": 2000000,
+          "금액": 2000000
+        }
+      ]
+    },
+    {
+      "category": "landing page",
+      "amount": 1000000,
+      "items": [
+        {
+          "품목명": "landing page",
+          "수량": 1,
+          "단가": 1000000,
+          "금액": 1000000
+        }
+      ]
+    },
+    {
+      "category": "AD Design",
+      "amount": 700000,
+      "items": [
+        {
+          "품목명": "AD Design",
+          "수량": 1,
+          "단가": 700000,
+          "금액": 700000
+        }
+      ]
+    },
+    {
+      "category": "PM",
+      "amount": 200000,
+      "items": [
+        {
+          "품목명": "PM",
+          "수량": 1,
+          "단가": 200000,
+          "금액": 200000
+        }
+      ]
+    },
+    {
+      "category": "agency fee 10%",
+      "amount": 390000,
+      "items": [
+        {
+          "품목명": "agency fee 10%",
+          "수량": 1,
+          "단가": 390000,
+          "금액": 390000
+        }
+      ]
+    }
+  ],
+  "합계금액": 4290000,
+  "세액": "",
+  "총액": 4290000
+}

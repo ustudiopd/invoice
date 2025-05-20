@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250325_(2025 Q1 Juniper LG 실비 )_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Category 1: Event management",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Operating PM | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": 300000
+    },
+    {
+      "description": "도우미 | 1 | 1 | 250000 | 250000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 250000,
+      "amount": 250000
+    },
+    {
+      "description": "스태프 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": 300000
+    },
+    {
+      "description": "Sub Total | 850000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 850000
+    },
+    {
+      "description": "Category 2: Production and output",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "사진촬영 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": 300000
+    },
+    {
+      "description": "Name tag | 50 | 1 | 2500 | 125000",
+      "quantity": 50,
+      "day": 1,
+      "unit_price": 2500,
+      "amount": 125000
+    },
+    {
+      "description": "출력 | 1 | 1 | 100000 | 100000 | 네임택 /메모지",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": 100000
+    },
+    {
+      "description": "Sub Total | 525000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 525000
+    },
+    {
+      "description": "Category 3: Venue",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Venue Fee | 1 | 1 | 3000000 | 3000000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 3000000,
+      "amount": 3000000
+    },
+    {
+      "description": "Lunch | 40 | 1 | 150000 | 6000000",
+      "quantity": 40,
+      "day": 1,
+      "unit_price": 150000,
+      "amount": 6000000
+    },
+    {
+      "description": "Coffee and Cookies | 40 | 1 | 25000 | 1000000",
+      "quantity": 40,
+      "day": 1,
+      "unit_price": 25000,
+      "amount": 1000000
+    },
+    {
+      "description": "Etc | 1 | 1 | 600000 | 600000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 600000,
+      "amount": 600000
+    },
+    {
+      "description": "추가 룸 | 1 | 1 | 2000000 | 2000000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 2000000,
+      "amount": 2000000
+    },
+    {
+      "description": "Sub Total | 12600000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 12600000
+    },
+    {
+      "description": "Category 4: ect",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Gift 스벅 5만원 | 10 | 1 | 50000 | 500000",
+      "quantity": 10,
+      "day": 1,
+      "unit_price": 50000,
+      "amount": 500000
+    },
+    {
+      "description": "점심 및 커피 | 1 | 1 | 100000 | 100000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": 100000
+    },
+    {
+      "description": "Gift | 50 | 1 | 62000 | 3100000",
+      "quantity": 50,
+      "day": 1,
+      "unit_price": 62000,
+      "amount": 3100000
+    },
+    {
+      "description": "포장비 | 50 | 1 | 2000 | 100000",
+      "quantity": 50,
+      "day": 1,
+      "unit_price": 2000,
+      "amount": 100000
+    },
+    {
+      "description": "물류비 | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": 200000
+    },
+    {
+      "description": ". | 4000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 4000000
+    },
+    {
+      "description": "Gran Total before General G&A, Commission, VAT | 17975000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 17975000
+    },
+    {
+      "description": "Agency Commission 10% | 1797500",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 1797500
+    },
+    {
+      "description": "cut",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Grand Total | 19772500 | exclude VAT",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 19772500
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

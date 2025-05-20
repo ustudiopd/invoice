@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250404_(3월 MS 드래곤시티 인터뷰 촬영)_엔데버_홍인석_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "인터뷰 출장 촬영",
+      "unit_krw": 1500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1500000,
+      "remark": ""
+    },
+    {
+      "description": "스케치 인서트",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

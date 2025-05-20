@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "file_name": "Ustudio_INVOICE 20250313_(Juniper Networks Video Production)_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Note",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Planning | 2000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 2000000
+    },
+    {
+      "description": "PM (Storyboard , screenplay creation) | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "Screenwriter | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "Production | 5300000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 5300000
+    },
+    {
+      "description": "Casting actor (women) | 1500000 | 1 | 1 | 1500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1500000
+    },
+    {
+      "description": "Casting actor (men) | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "Makeup Staff | 500000 | 2 | 1 | 1000000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "Add Filming Actors | 1800000 | 1 | 1 | 1800000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1800000
+    },
+    {
+      "description": "Camera shooting and editing | 8500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 8500000
+    },
+    {
+      "description": "Camera shooting | 1500000 | 1 | 1 | 1500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1500000
+    },
+    {
+      "description": "Camera Director | 500000 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 500000
+    },
+    {
+      "description": "Studio | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "Editing | 1 | 1 | 0",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 0
+    },
+    {
+      "description": "Cut editing | 1500000 | 2 | 1 | 3000000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 3000000
+    },
+    {
+      "description": "CG editing | 2000000 | 2 | 1 | 4000000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 4000000
+    },
+    {
+      "description": "Total",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "agency fee 10% | 15800000 | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "cut | 1 | 1 | 0",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 0
+    },
+    {
+      "description": "15800000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 15800000
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 15800000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 15800000
+    },
+    {
+      "description": "Tax rate | 0.1",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": 0.1
+    },
+    {
+      "description": "Tax due | 1580000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": 1580000
+    },
+    {
+      "description": "Other | 0",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Other",
+      "amount": 0
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 17380000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 17380000
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

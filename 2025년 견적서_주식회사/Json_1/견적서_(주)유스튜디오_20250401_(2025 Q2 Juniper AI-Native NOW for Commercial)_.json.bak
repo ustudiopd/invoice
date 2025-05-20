@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250401_(2025 Q2 Juniper AI-Native NOW for Commercial)_.xlsx"
+  },
+  "items": [
+    {
+      "description": "Category 2: Event management",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Design Creation, Variation | 1 | 1 | 2500000 | 2500000 | Promo EDM, Thanks EDM, Banners",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 2500000,
+      "amount": 2500000
+    },
+    {
+      "description": "Operating PM, Staff | 6 | 1 | 350000 | 2100000",
+      "quantity": 6,
+      "day": 1,
+      "unit_price": 350000,
+      "amount": 2100000
+    },
+    {
+      "description": "Name tag, memo, pen | 100 | 1 | 8000 | 800000",
+      "quantity": 100,
+      "day": 1,
+      "unit_price": 8000,
+      "amount": 800000
+    },
+    {
+      "description": "Category 3: Production and output",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Design Print, Depolyment | 1 | 1 | 1800000 | 1800000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1800000,
+      "amount": 1800000
+    },
+    {
+      "description": "Category 4: Gift",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Gift | 100 | 1 | 60000 | 6000000",
+      "quantity": 100,
+      "day": 1,
+      "unit_price": 60000,
+      "amount": 6000000
+    },
+    {
+      "description": "Sub Total | 13200000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 13200000
+    },
+    {
+      "description": "Gran Total before General G&A, Commission, VAT | 13200000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 13200000
+    },
+    {
+      "description": "Agency Commission 10% | 1320000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 1320000
+    },
+    {
+      "description": "cut | -20000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": -20000
+    },
+    {
+      "description": "Grand Total | 14500000 | exclude VAT",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 14500000
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "file_name": "Ustudio_Qou_20250507_(Promotion video production)_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Event management",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Planning and Program Organization | 500000 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 500000
+    },
+    {
+      "description": "Video production | 2500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 2500000
+    },
+    {
+      "description": "Video camera | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Video camera | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Gimbal & Tripod | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Lighting system | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Etc line & product | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Studio | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Video editing | 2000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 2000000
+    },
+    {
+      "description": "Design work | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Cut editing | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Motion graphics ( CG ) | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Color correction | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Image editing | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Subtitle editing | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "BGM editing | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Comprehensive compilation | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "cut | 1 | 1 | 0",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 0
+    },
+    {
+      "description": "5000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 5000000
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 5000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 5000000
+    },
+    {
+      "description": "TOTAL Due | 5500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 5500000
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

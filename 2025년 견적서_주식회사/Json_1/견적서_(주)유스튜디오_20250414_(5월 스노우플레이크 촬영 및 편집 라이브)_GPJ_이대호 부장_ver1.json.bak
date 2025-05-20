@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250414_(5월 스노우플레이크 촬영 및 편집 라이브)_GPJ_이대호 부장_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "라이브 송출",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "라이브 송출 | 1 | 1 | 1000000 | 1000000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "이벤터스 | 3 | 1 | 300000 | 900000 | 300명 기준",
+      "quantity": 3,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "이벤터스 구성 | 1 | 1 | 300000 | 300000 | 문자 및 셋팅",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "유스튜디오 촬영",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "카메라 촬영 및 발표자료 녹화 | 1 | 1 | 1000000 | 1000000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "콘솔 스위처 | 1 | 1 | 700000 | 700000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 700000,
+      "amount": null
+    },
+    {
+      "description": "콘솔 인력 | 2 | 1 | 300000 | 600000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "기타자재 | 1 | 1 | 300000 | 300000 | 노트북 연결라인 및 분배기",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "스튜디오 | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "프롬프터 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "조명 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "추가 카메라 | 1 | 1",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "기타 사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "사전 편집 | 1 | 1 | 1500000 | 1500000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1500000,
+      "amount": null
+    },
+    {
+      "description": "크로 마키 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "자막 작업 | 1 | 1 | 400000 | 400000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 400000,
+      "amount": null
+    },
+    {
+      "description": "리허설 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 8400000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 840000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 9240000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

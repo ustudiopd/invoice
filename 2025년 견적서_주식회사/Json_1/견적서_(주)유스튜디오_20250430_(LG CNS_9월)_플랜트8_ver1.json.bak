@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250430_(LG CNS_9월)_플랜트8_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "세션 촬영 | 3 | 1 | 2500000 | 7500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 2500000,
+      "amount": null
+    },
+    {
+      "description": "녹화 시스템 콘솔",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "카메라 스위처",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "카메라",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "촬영 및 콘솔 인력",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "cut | 2 | 1 | -500000 | -1000000 | half",
+      "quantity": 1,
+      "day": null,
+      "unit_price": -500000,
+      "amount": null
+    },
+    {
+      "description": "세션 촬영/편집/라이브",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "라이브 송출 콘솔 | 3 | 1 | 1000000 | 3000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "cut | 2 | 1 | -300000 | -600000 | half",
+      "quantity": 1,
+      "day": null,
+      "unit_price": -300000,
+      "amount": null
+    },
+    {
+      "description": "편집 및 추가사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "세션 편집 | 4 | 1 | 500000 | 2000000 | 트랙/ 키노트",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "스케치 영상 제작 | 1 | 1 | 2500000 | 2500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 2500000,
+      "amount": null
+    },
+    {
+      "description": "브릿지 영상 제작 | 1 | 1 | 1000000 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "출장 및 셋팅 | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "리허설 진행비 | 1 | 1 | 1000000 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 15900000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 1590000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 17490000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

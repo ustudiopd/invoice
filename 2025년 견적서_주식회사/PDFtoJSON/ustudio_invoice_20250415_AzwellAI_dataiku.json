@@ -1,0 +1,70 @@
+{
+  "견적번호": "UST-20250502-001",
+  "견적일자": "",
+  "거래처명": "dataiku",
+  "카테고리": [
+    {
+      "category": "Operations System & Staff",
+      "amount": 1600000,
+      "items": [
+        {
+          "품목명": "Registration Desk Operations",
+          "수량": 1,
+          "단가": 1600000,
+          "금액": 1600000
+        }
+      ]
+    },
+    {
+      "category": "AV system",
+      "amount": 1200000,
+      "items": [
+        {
+          "품목명": "console,photo",
+          "수량": 1,
+          "단가": 1200000,
+          "금액": 1200000
+        }
+      ]
+    },
+    {
+      "category": "Design and output",
+      "amount": 1250000,
+      "items": [
+        {
+          "품목명": "Design and output",
+          "수량": 1,
+          "단가": 1250000,
+          "금액": 1250000
+        }
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "amount": 1800000,
+      "items": [
+        {
+          "품목명": "Miscellaneous",
+          "수량": 1,
+          "단가": 1800000,
+          "금액": 1800000
+        }
+      ]
+    },
+    {
+      "category": "agency fee",
+      "amount": 1150000,
+      "items": [
+        {
+          "품목명": "agency fee",
+          "수량": 1,
+          "단가": 5850000,
+          "금액": 1150000
+        }
+      ]
+    }
+  ],
+  "합계금액": 7000000,
+  "세액": 700000,
+  "총액": 7700000
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "file_name": "Ustudio_20250325_(줌 웨비나)_AB180_서한솔.xlsx"
+  },
+  "items": [
+    {
+      "description": "줌 웨비나 프로덕션",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "스튜디오 렌탈(유스튜디오) 장비 일체",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1000000,
+      "remark": null
+    },
+    {
+      "description": "라이브 스트리밍 콘솔 및 인력 비용",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 800000,
+      "remark": null
+    },
+    {
+      "description": "종료후 기본 컷 편집 (무료)",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "3회 이상 송출 할인",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": -200000,
+      "remark": null
+    },
+    {
+      "description": "OTHER COMMENTS",
+      "unit_krw": "TOTAL",
+      "quantity": null,
+      "unit": "TOTAL",
+      "amount": 1600000,
+      "remark": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact",
+      "unit_krw": "TOTAL Due",
+      "quantity": null,
+      "unit": "TOTAL Due",
+      "amount": 1760000,
+      "remark": null
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

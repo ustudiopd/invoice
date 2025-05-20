@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250205_(KDI국제정책대학원 학생 유튜브 영상 콘텐츠 제작).xlsx"
+  },
+  "items": [
+    {
+      "description": "기획 | 기획 및 시나리오 작성 | 250000 | 25 | 1 | 6250000",
+      "quantity": 25,
+      "day": 1,
+      "unit_price": 250000,
+      "amount": "기획"
+    },
+    {
+      "description": "항목 | 내용 | 단가 | 수량 | 일수 | 비용 | 비고",
+      "quantity": "수량",
+      "day": "일수",
+      "unit_price": "단가",
+      "amount": "항목"
+    },
+    {
+      "description": "대학원 제작 영상 (12편)",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "촬영 | 카메라 촬영 | 800000 | 12 | 1 | 9600000 | ronin 4D Cinema camera, Sony A7S3",
+      "quantity": 12,
+      "day": 1,
+      "unit_price": 800000,
+      "amount": "촬영"
+    },
+    {
+      "description": "고프로 대여 | 0 | 12 | 1 | 0 | Gopro Hero 10",
+      "quantity": 12,
+      "day": 1,
+      "unit_price": 0,
+      "amount": null
+    },
+    {
+      "description": "출장비 | 100000 | 12 | 1 | 1200000",
+      "quantity": 12,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "카메라 기타자재 | 300000 | 12 | 1 | 3600000",
+      "quantity": 12,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "편집 | 에프터 이펙트 작업 | 300000 | 12 | 1 | 3600000",
+      "quantity": 12,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": "편집"
+    },
+    {
+      "description": "컬러 그레이딩 작업 및 CG | 100000 | 12 | 1 | 1200000",
+      "quantity": 12,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "종합편집 | 600000 | 12 | 1 | 7200000",
+      "quantity": 12,
+      "day": 1,
+      "unit_price": 600000,
+      "amount": null
+    },
+    {
+      "description": "오디오 믹싱 | 100000 | 12 | 1 | 1200000",
+      "quantity": 12,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "항목 | 내용 | 단가 | 수량 | 일수 | 비용 | 비고",
+      "quantity": "수량",
+      "day": "일수",
+      "unit_price": "단가",
+      "amount": "항목"
+    },
+    {
+      "description": "시리즈 (8편)",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "촬영 | 카메라 촬영 | 800000 | 8 | 1 | 6400000 | Sony A7S3 인터뷰 카메라 3대",
+      "quantity": 8,
+      "day": 1,
+      "unit_price": 800000,
+      "amount": "촬영"
+    },
+    {
+      "description": "출장비 | 100000 | 8 | 1 | 800000",
+      "quantity": 8,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "카메라 기타자재 및 조명 | 300000 | 8 | 1 | 2400000",
+      "quantity": 8,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "편집 | 애프터 이펙트 작업 | 300000 | 8 | 1 | 2400000",
+      "quantity": 8,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": "편집"
+    },
+    {
+      "description": "컬러 그레이딩 작업 및 CG | 100000 | 8 | 1 | 800000",
+      "quantity": 8,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "종합편집 | 600000 | 8 | 1 | 4800000",
+      "quantity": 8,
+      "day": 1,
+      "unit_price": 600000,
+      "amount": null
+    },
+    {
+      "description": "오디오 믹싱 | 100000 | 8 | 1 | 800000",
+      "quantity": 8,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "항목 | 내용 | 단가 | 수량 | 일수 | 비용 | 비고",
+      "quantity": "수량",
+      "day": "일수",
+      "unit_price": "단가",
+      "amount": "항목"
+    },
+    {
+      "description": "행사 스케치 영상 제작 (5편)",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "촬영 | 카메라 촬영 | 800000 | 5 | 1 | 4000000 | ronin 4D Cinema camera, Sony A7S3",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 800000,
+      "amount": "촬영"
+    },
+    {
+      "description": "드론 촬영 | 0 | 5 | 1 | 0",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 0,
+      "amount": null
+    },
+    {
+      "description": "출장비 | 100000 | 5 | 1 | 500000",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "카메라 기타자재 | 100000 | 5 | 1 | 500000",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "편집 | 애프터 이펙트 작업 | 300000 | 5 | 1 | 1500000",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": "편집"
+    },
+    {
+      "description": "컬러 그레이딩 작업 및 CG | 100000 | 5 | 1 | 500000",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "종합편집 | 600000 | 5 | 1 | 3000000",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 600000,
+      "amount": null
+    },
+    {
+      "description": "오디오 믹싱 | 100000 | 5 | 1 | 500000",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "항목 | 내용 | 단가 | 수량 | 일수 | 비용 | 비고",
+      "quantity": "수량",
+      "day": "일수",
+      "unit_price": "단가",
+      "amount": "항목"
+    },
+    {
+      "description": "쇼츠 제작",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "쇼츠 제작 | 3000000 | 1 | 1",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 3000000,
+      "amount": null
+    },
+    {
+      "description": "항목 | 내용 | 단가 | 수량 | 단위 | 비용 | 비고",
+      "quantity": "수량",
+      "day": "단위",
+      "unit_price": "단가",
+      "amount": "항목"
+    },
+    {
+      "description": "기타 비용",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "광고집행비 | 150000 | 25 | 1 | 3750000",
+      "quantity": 25,
+      "day": 1,
+      "unit_price": 150000,
+      "amount": null
+    },
+    {
+      "description": "영문 성우 | 0",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "영문 번역 및 검수 | 200000 | 25 | 1 | 5000000",
+      "quantity": 25,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

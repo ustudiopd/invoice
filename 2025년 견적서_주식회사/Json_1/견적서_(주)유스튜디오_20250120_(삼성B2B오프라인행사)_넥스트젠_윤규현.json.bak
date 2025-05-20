@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250120_(삼성B2B오프라인행사)_넥스트젠_윤규현.xlsx"
+  },
+  "items": [
+    {
+      "description": "스케치 영상제작",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "촬영 | 3 | 1200000 | 3600000",
+      "quantity": 3,
+      "day": null,
+      "unit_price": 1200000,
+      "amount": null
+    },
+    {
+      "description": "편집 | 1 | 1500000 | 1500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1500000,
+      "amount": null
+    },
+    {
+      "description": "촬영 | 1 | 600000 | 600000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 600000,
+      "amount": null
+    },
+    {
+      "description": "출장비",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "서울경기 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "대전 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "부산 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 6500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 650000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 7150000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

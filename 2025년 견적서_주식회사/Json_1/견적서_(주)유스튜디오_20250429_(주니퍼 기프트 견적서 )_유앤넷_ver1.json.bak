@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250429_(주니퍼 기프트 견적서 )_유앤넷_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "청소기 | 160 | 1 | 62000 | 9920000",
+      "quantity": 160,
+      "day": 1,
+      "unit_price": 62000,
+      "amount": null
+    },
+    {
+      "description": "배송비 | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "agency fee | 0.12 | 1 | 9920000 | 1190400",
+      "quantity": 0.12,
+      "day": 1,
+      "unit_price": 9920000,
+      "amount": null
+    },
+    {
+      "description": "cut | 1 | -1 | 10400 | -10400",
+      "quantity": 1,
+      "day": -1,
+      "unit_price": 10400,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 11300000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 1130000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 12430000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250414_(5월 스노우플레이크 촬영 및 편집 라이브)_GPJ_이대호 부장_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "라이브 송출",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "라이브 송출",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1000000,
+      "remark": ""
+    },
+    {
+      "description": "이벤터스",
+      "unit_krw": 300000,
+      "quantity": 3,
+      "unit": null,
+      "amount": 900000,
+      "remark": "300명 기준"
+    },
+    {
+      "description": "이벤터스 구성",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 300000,
+      "remark": "문자 및 셋팅"
+    },
+    {
+      "description": "유스튜디오 촬영",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "카메라 촬영 및 발표자료 녹화",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1000000,
+      "remark": ""
+    },
+    {
+      "description": "콘솔 스위처",
+      "unit_krw": 700000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 700000,
+      "remark": ""
+    },
+    {
+      "description": "콘솔 인력",
+      "unit_krw": 300000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 600000,
+      "remark": ""
+    },
+    {
+      "description": "기타자재",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 300000,
+      "remark": "노트북 연결라인 및 분배기"
+    },
+    {
+      "description": "스튜디오",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 500000,
+      "remark": ""
+    },
+    {
+      "description": "프롬프터",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "조명",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "추가 카메라",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "기타 사항",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "사전 편집",
+      "unit_krw": 1500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1500000,
+      "remark": ""
+    },
+    {
+      "description": "크로 마키",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "자막 작업",
+      "unit_krw": 400000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 400000,
+      "remark": ""
+    },
+    {
+      "description": "리허설",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

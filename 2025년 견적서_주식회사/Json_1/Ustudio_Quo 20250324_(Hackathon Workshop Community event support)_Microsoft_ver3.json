@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "file_name": "Ustudio_Quo 20250324_(Hackathon Workshop Community event support)_Microsoft_ver3.xlsx"
+  },
+  "items": [
+    {
+      "description": "Event management",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Hackathon/Workshop event support",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 7000000,
+      "remark": null
+    },
+    {
+      "description": "Community event support",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 4150000,
+      "remark": null
+    },
+    {
+      "description": "agency fee",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 2500000,
+      "remark": null
+    },
+    {
+      "description": "OTHER COMMENTS",
+      "unit_krw": "TOTAL",
+      "quantity": null,
+      "unit": "TOTAL",
+      "amount": 13650000,
+      "remark": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact",
+      "unit_krw": "TOTAL Due",
+      "quantity": null,
+      "unit": "TOTAL Due",
+      "amount": 15015000,
+      "remark": null
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

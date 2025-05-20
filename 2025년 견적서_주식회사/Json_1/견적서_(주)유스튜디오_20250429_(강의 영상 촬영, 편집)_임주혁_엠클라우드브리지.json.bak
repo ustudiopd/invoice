@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250429_(강의 영상 촬영, 편집)_임주혁_엠클라우드브리지.xlsx"
+  },
+  "items": [
+    {
+      "description": "강의영상 제작(스튜디오 촬영)",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "렌탈/촬영 | 스튜디오 렌탈 | 1 | 2 | 1100000 | 2200000 | 촬영기재 일체",
+      "quantity": 1,
+      "day": 2,
+      "unit_price": 1100000,
+      "amount": null
+    },
+    {
+      "description": "제작 | 편집 | 18 | 1 | 300000 | 5400000",
+      "quantity": 18,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "자막작업 | 18 | 1 | 100000 | 1800000",
+      "quantity": 18,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "할인 | 할인(10%) | -900000 | 만원단위 이하 절사",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 8500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 850000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 9350000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

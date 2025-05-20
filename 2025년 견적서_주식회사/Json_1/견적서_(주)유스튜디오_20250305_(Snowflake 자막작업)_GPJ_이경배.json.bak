@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250305_(Snowflake 자막작업)_GPJ_이경배.xlsx"
+  },
+  "items": [
+    {
+      "description": "자막 작업",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Telecom AI + Data Predictions for 2025 | 6 | 1 | 100000 | 600000 | 56분",
+      "quantity": 6,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "Telecom Data Cloud | Snowflake For Telecommunications | 1 | 1 | 100000 | 100000 | 1분33초",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "Disney's Use Of Data And AI In Advertising And Marketing | 2 | 1 | 100000 | 200,000\n100,000 | 12분",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 800000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 80000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 880000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

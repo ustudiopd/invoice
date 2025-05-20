@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250527_(애즈웰 200명 소노펠리체)_에즈웰플러스_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "대관료 | 1 | 1 | 15600000 | 15600000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 15600000,
+      "amount": null
+    },
+    {
+      "description": "양식 | 200 | 1 | 67000 | 13400000",
+      "quantity": 200,
+      "day": 1,
+      "unit_price": 67000,
+      "amount": null
+    },
+    {
+      "description": "커피&다과 | 200 | 1 | 11000 | 2200000",
+      "quantity": 200,
+      "day": 1,
+      "unit_price": 11000,
+      "amount": null
+    },
+    {
+      "description": "운영대행 | 1 | 1 | 1900000 | 1900000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1900000,
+      "amount": null
+    },
+    {
+      "description": "에이전시 스탭 | 2 | 1 | 300000 | 600000 | 행사 PM / 매니저",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "의전 | 1 | 1 | 300000 | 300000 | MC",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "인력스텝 | 4 | 1 | 250000 | 1000000",
+      "quantity": 4,
+      "day": 1,
+      "unit_price": 250000,
+      "amount": null
+    },
+    {
+      "description": "디자인 및 출력물 | 1 | 1 | 2700000 | 2700000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 2700000,
+      "amount": null
+    },
+    {
+      "description": "네임택 | 200 | 1 | 4000 | 800000 | 참가자 / 스탭",
+      "quantity": 200,
+      "day": 1,
+      "unit_price": 4000,
+      "amount": null
+    },
+    {
+      "description": "등록용 랩탑 | 3 | 1 | 100000 | 300000",
+      "quantity": 3,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "디자인 | 1 | 1 | 300000 | 300000 | 인포브릿지, 제작물 디자인 추가 수정",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "제작물 | 1 | 1 | 300000 | 300000 | 배너 / 현수막",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "기타경비 | 1 | 1 | 200000 | 200000 | 프린트 및 행사비품",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "시스템 사용료 | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "eDM 발송 | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "문자 발송 | 1 | 1 | 100000 | 100000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "영상콘솔 | 1 | 1 | 1100000 | 1100000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1100000,
+      "amount": null
+    },
+    {
+      "description": "스위쳐 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "노트북 | 3 | 1 | 100000 | 300000",
+      "quantity": 3,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "프레젠터 | 1 | 1 | 100000 | 100000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "콘솔감독 | 2 | 1 | 200000 | 400000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "포토 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "사진촬영 | 1 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "기념품 | 1 | 1 | 0 | 0",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 0,
+      "amount": null
+    },
+    {
+      "description": "기념품 | 1 | 1 | 0 | 0",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 0,
+      "amount": null
+    },
+    {
+      "description": "대행수수료 | 0.1 | 1 | 21600000 | 2160000 | 총 진행비의 10%",
+      "quantity": 0.1,
+      "day": 1,
+      "unit_price": 21600000,
+      "amount": null
+    },
+    {
+      "description": "행사 기획",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 23760000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 2376000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 26136000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

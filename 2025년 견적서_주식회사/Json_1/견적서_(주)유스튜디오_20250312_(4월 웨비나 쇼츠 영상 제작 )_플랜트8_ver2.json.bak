@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250312_(4월 웨비나 쇼츠 영상 제작 )_플랜트8_ver2.xlsx"
+  },
+  "items": [
+    {
+      "description": "편집 및 추가사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "스토리 보드 작성 | 1 | 2 | 100000 | 200000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "캡션 및 이미지 편집 | 1 | 2 | 300000 | 600000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "쇼츠 편집 | 1 | 2 | 400000 | 800000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 400000,
+      "amount": null
+    },
+    {
+      "description": "모션 이미지작업 | 1 | 2 | 400000 | 800000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 400000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 2400000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 240000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 2640000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

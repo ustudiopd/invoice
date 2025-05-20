@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250429_(강의 영상 촬영, 편집)_임주혁_엠클라우드브리지.xlsx"
+  },
+  "items": [
+    {
+      "description": "강의영상 제작(스튜디오 촬영)",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "스튜디오 렌탈",
+      "unit_krw": 1100000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 2200000,
+      "remark": "촬영기재 일체"
+    },
+    {
+      "description": "편집",
+      "unit_krw": 300000,
+      "quantity": 18,
+      "unit": null,
+      "amount": 5400000,
+      "remark": ""
+    },
+    {
+      "description": "자막작업",
+      "unit_krw": 100000,
+      "quantity": 18,
+      "unit": null,
+      "amount": 1800000,
+      "remark": ""
+    },
+    {
+      "description": "할인(10%)",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": -900000,
+      "remark": "만원단위 이하 절사"
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

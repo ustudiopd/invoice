@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "file_name": "ustudio_invoice_20250415_AzwellAI_dataiku.xlsx"
+  },
+  "items": [
+    {
+      "description": "Operations System & Staff (Registration Desk Operations) | 1600000 | 1 | 1 | 1600000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1600000
+    },
+    {
+      "description": "AV system (console,photo) | 1200000 | 1 | 1 | 1200000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1200000
+    },
+    {
+      "description": "Design and output | 1250000 | 1 | 1 | 1250000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1250000
+    },
+    {
+      "description": "Miscellaneous | 1800000 | 1 | 1 | 1800000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1800000
+    },
+    {
+      "description": "agency fee | 5850000 | 1 | 1 | 1150000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1150000
+    },
+    {
+      "description": "7000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 7000000
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 7000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 7000000
+    },
+    {
+      "description": "Tax rate | 0.1",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": 0.1
+    },
+    {
+      "description": "Tax due | 700000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": 700000
+    },
+    {
+      "description": "cut",
+      "quantity": null,
+      "day": null,
+      "unit_price": "cut",
+      "amount": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 7700000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 7700000
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

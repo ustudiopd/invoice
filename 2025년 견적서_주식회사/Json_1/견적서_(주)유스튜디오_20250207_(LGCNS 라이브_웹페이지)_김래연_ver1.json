@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250207_(LGCNS 라이브_웹페이지)_김래연_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "라이브 송출",
+      "unit_krw": 5000000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 5000000,
+      "remark": ""
+    },
+    {
+      "description": "촬영",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "라이브 송출",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "콘솔",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "인력",
+      "unit_krw": 300000,
+      "quantity": 3,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "기타자재",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "스튜디오",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "웹페이지",
+      "unit_krw": 5000000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 5000000,
+      "remark": "초기구축"
+    },
+    {
+      "description": "기획 및 제작",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "로그인 기능 및 태그작업",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "웹 페이지",
+      "unit_krw": 500000,
+      "quantity": 4,
+      "unit": "1",
+      "amount": null,
+      "remark": "메인/로그인/시청/설문"
+    },
+    {
+      "description": "퍼블리싱",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": "디자인 시안 웹페이지 작업"
+    },
+    {
+      "description": "개발자 퍼블리셔 상호 테스트 및 유지비용",
+      "unit_krw": 500000,
+      "quantity": 2,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "유지비용",
+      "unit_krw": 2000000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 2000000,
+      "remark": "회당"
+    },
+    {
+      "description": "웹 호스팅 비용(클라우드 이용)",
+      "unit_krw": 650000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "영상 클라우드 비용",
+      "unit_krw": 750000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "도메인 구매 및 인증",
+      "unit_krw": 100000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": "도메인 비용만 정보인증 비용은 삭제"
+    },
+    {
+      "description": "문자 및 메일 발송",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": "충전비용 및 발송"
+    },
+    {
+      "description": "추가 과금",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": "추가 웹페이지 수정 비용 및 동영상 호스팅 추가분"
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

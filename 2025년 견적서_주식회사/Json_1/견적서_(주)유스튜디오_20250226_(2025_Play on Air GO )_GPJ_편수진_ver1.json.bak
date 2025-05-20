@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250226_(2025_Play on Air GO )_GPJ_편수진_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Play on Air 1회 | 1 | 1 | 4500000 | 4500000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 4500000,
+      "amount": null
+    },
+    {
+      "description": "편집 및 사전 녹화 | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "추가 사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "생방송 송출 콘솔 시스템 | 1 | 1 | 1500000 | 유튜브 송출 콘솔",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1500000,
+      "amount": null
+    },
+    {
+      "description": "백업 송출 콘솔 | 1 | 1 | 1000000 | 백업 유튜브 송출 콘솔",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "노트북 콘솔 스위처 | 1 | 1 | 700000 | 노트북 스위칭 장비",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 700000,
+      "amount": null
+    },
+    {
+      "description": "촬영 및 송출 인력 | 2 | 1 | 300000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "스튜디오 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "기타 사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "롤링 브릿지 제작 | 1 | 1 | 400000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 400000,
+      "amount": null
+    },
+    {
+      "description": "행사 종료 후 편집 | 1 | 1 | 500000 | 단순 컷편집 및 링크 생성",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 5000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 5500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

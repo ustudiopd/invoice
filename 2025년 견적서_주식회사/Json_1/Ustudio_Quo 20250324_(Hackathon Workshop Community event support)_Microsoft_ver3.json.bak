@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "file_name": "Ustudio_Quo 20250324_(Hackathon Workshop Community event support)_Microsoft_ver3.xlsx"
+  },
+  "items": [
+    {
+      "description": "Event management",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Hackathon/Workshop event support | 7000000 | 1 | 1 | 7000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 7000000
+    },
+    {
+      "description": "Community event support | 4150000 | 1 | 1 | 4150000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 4150000
+    },
+    {
+      "description": "agency fee | 2500000 | 1 | 1 | 2500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 2500000
+    },
+    {
+      "description": "13650000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 13650000
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 13650000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 13650000
+    },
+    {
+      "description": "Tax rate | 0.1",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": 0.1
+    },
+    {
+      "description": "Tax due | 1365000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": 1365000
+    },
+    {
+      "description": "Other | 0",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Other",
+      "amount": 0
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 15015000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 15015000
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

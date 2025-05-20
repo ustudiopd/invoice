@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250605_(1트랙 촬영 및 스케치 )_펀미디어_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "트랙 촬영",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1000000,
+      "remark": ""
+    },
+    {
+      "description": "카메라",
+      "unit_krw": null,
+      "quantity": 2,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "콘솔 장비",
+      "unit_krw": null,
+      "quantity": 2,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "촬영 감독",
+      "unit_krw": null,
+      "quantity": 2,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "콘솔 인력",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "편집",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "키노트 편집",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 500000,
+      "remark": ""
+    },
+    {
+      "description": "스케치 촬영 편집",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": 1500000,
+      "remark": ""
+    },
+    {
+      "description": "카메라",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "편집",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "촬영 감독",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "추가 사항",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "셋팅 및 출장비",
+      "unit_krw": 200000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "전날 리허설",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

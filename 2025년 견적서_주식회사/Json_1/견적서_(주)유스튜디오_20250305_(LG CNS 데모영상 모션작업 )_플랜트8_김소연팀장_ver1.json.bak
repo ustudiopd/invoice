@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250305_(LG CNS 데모영상 모션작업 )_플랜트8_김소연팀장_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "모션 그래픽 영상 제작",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "시나리오 작업 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "디자인 작업 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "에프터이펙트 작업 (모션) | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "컷 편집 작업 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "종합 편집 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 1500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 150000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 1650000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

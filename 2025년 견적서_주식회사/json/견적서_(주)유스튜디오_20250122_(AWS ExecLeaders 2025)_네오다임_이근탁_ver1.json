@@ -1,0 +1,144 @@
+{
+  "template_type": "한글 견적서",
+  "header": {},
+  "items": [
+    {
+      "category": "AWS ExecLeaders",
+      "category_total": 5300000,
+      "items": [
+        {
+          "description": "카메라 및 발표자료 캡처시스템",
+          "unit_krw": 1000000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": null,
+          "remark": null
+        },
+        {
+          "description": "카메라",
+          "unit_krw": 600000,
+          "qty": 3,
+          "unit": null,
+          "amount_krw": null,
+          "remark": "중앙2/측1"
+        },
+        {
+          "description": "카메라 스위처",
+          "unit_krw": 1000000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": null,
+          "remark": null
+        },
+        {
+          "description": "콘솔 및 촬영 인력",
+          "unit_krw": 300000,
+          "qty": 4,
+          "unit": null,
+          "amount_krw": null,
+          "remark": "콘솔/촬영"
+        },
+        {
+          "description": "기타자재",
+          "unit_krw": 300000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": null,
+          "remark": "삼각대 및 기타라인 , 분배기"
+        }
+      ]
+    },
+    {
+      "category": "Women Leaders Forum",
+      "category_total": 4500000,
+      "items": [
+        {
+          "description": "카메라 및 발표자료 캡처시스템",
+          "unit_krw": 1000000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": null,
+          "remark": null
+        },
+        {
+          "description": "카메라",
+          "unit_krw": 600000,
+          "qty": 3,
+          "unit": null,
+          "amount_krw": null,
+          "remark": "중앙2/측1"
+        },
+        {
+          "description": "카메라 스위처",
+          "unit_krw": 500000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": null,
+          "remark": null
+        },
+        {
+          "description": "콘솔 및 촬영 인력",
+          "unit_krw": 300000,
+          "qty": 3,
+          "unit": null,
+          "amount_krw": null,
+          "remark": "콘솔/촬영"
+        },
+        {
+          "description": "기타자재",
+          "unit_krw": 300000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": null,
+          "remark": "삼각대 및 기타라인 , 분배기"
+        }
+      ]
+    },
+    {
+      "category": "편집",
+      "category_total": 3000000,
+      "items": [
+        {
+          "description": "AWS ExecLeaders  세션 편집",
+          "unit_krw": 2000000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": null,
+          "remark": null
+        },
+        {
+          "description": "Women Leaders Forum 세션 편집",
+          "unit_krw": 1000000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": null,
+          "remark": null
+        },
+        {
+          "description": "리허설",
+          "unit_krw": 2000000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": 2000000,
+          "remark": null
+        },
+        {
+          "description": "출장 및 셋팅",
+          "unit_krw": 1000000,
+          "qty": 1,
+          "unit": null,
+          "amount_krw": 1000000,
+          "remark": null
+        },
+        {
+          "description": "대포렌즈",
+          "unit_krw": 800000,
+          "qty": 2,
+          "unit": null,
+          "amount_krw": 1600000,
+          "remark": null
+        }
+      ]
+    }
+  ]
+}

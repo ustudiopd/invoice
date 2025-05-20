@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250421_(주니퍼 영상 제작 )_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "영상 제작",
+      "unit_krw": 3000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 3000000,
+      "remark": ""
+    },
+    {
+      "description": "촬영",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "DLSR 짐벌 촬영",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "카메라 기타자재",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "촬영 인력",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "출장 및 셋팅",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "조명",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "편집",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "CG 작업 (에프터이펙트)",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "컬러 그레이딩 작업",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "BGM",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "종합 편집",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "노트북 제외",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "추가 사항",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "배우섭외",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "장소 섭외 및 답사",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "기획 및 시나리오 작업",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

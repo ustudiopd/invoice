@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250206_(Q1 DOOH 넥스트젠 옥외광고 수정작업)_넥스트젠_원정경.xlsx"
+  },
+  "items": [
+    {
+      "description": "수정 작업",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "영상 컷 및 수정작업 | 1 | 300000 | 300000 | 갤럭시북 일렉트로마트 영등포점",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 300000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 30000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 330000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

@@ -1,0 +1,120 @@
+{
+  "template_type": "영문 INVOICE",
+  "header": {},
+  "items": [
+    {
+      "category": "Planning",
+      "category_total": 1000000,
+      "items": [
+        {
+          "description": "Planning and Program Organization",
+          "unit_krw": 500000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 500000,
+          "remark": null
+        },
+        {
+          "description": "Design work (Video and Platform)",
+          "unit_krw": 500000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 500000,
+          "remark": null
+        },
+        {
+          "description": "eDM (Edit source code)",
+          "unit_krw": 250000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": null,
+          "remark": null
+        }
+      ]
+    },
+    {
+      "category": "Event platform",
+      "category_total": 1800000,
+      "items": [
+        {
+          "description": "Event-us (Streaming server)",
+          "unit_krw": 3000,
+          "qty": 500,
+          "unit": 1,
+          "amount_krw": 1500000,
+          "remark": null
+        },
+        {
+          "description": "Platform landing page creation",
+          "unit_krw": 300000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 300000,
+          "remark": null
+        },
+        {
+          "description": "Event-us HR lead targeting sending",
+          "unit_krw": 1000,
+          "qty": 3000,
+          "unit": 1,
+          "amount_krw": 3000000,
+          "remark": null
+        }
+      ]
+    },
+    {
+      "category": "Live streaming production",
+      "category_total": 4000000,
+      "items": [
+        {
+          "description": "Camera",
+          "unit_krw": 1000000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 1000000,
+          "remark": null
+        },
+        {
+          "description": "System console",
+          "unit_krw": 1500000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 1500000,
+          "remark": null
+        },
+        {
+          "description": "Studio rental",
+          "unit_krw": 500000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 500000,
+          "remark": null
+        },
+        {
+          "description": "Console staff",
+          "unit_krw": 500000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 500000,
+          "remark": null
+        },
+        {
+          "description": "agency fee 10%",
+          "unit_krw": 6800000,
+          "qty": 0.1,
+          "unit": 1,
+          "amount_krw": 680000,
+          "remark": null
+        },
+        {
+          "description": "If you have any questions about this quotation, please contact",
+          "unit_krw": null,
+          "qty": null,
+          "unit": "TOTAL Due",
+          "amount_krw": 8228000,
+          "remark": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "file_name": "Ustudio_INVOICE 20250203_(live streming )_Work Day_ver2.xlsx"
+  },
+  "items": [
+    {
+      "description": "Planning",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 1000000,
+      "remark": null
+    },
+    {
+      "description": "Planning and Program Organization",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 500000,
+      "remark": null
+    },
+    {
+      "description": "Design work (Video and Platform)",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 500000,
+      "remark": null
+    },
+    {
+      "description": "eDM (Edit source code)",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Event platform",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 1800000,
+      "remark": null
+    },
+    {
+      "description": "Event-us (Streaming server)",
+      "unit_krw": 1,
+      "quantity": 500,
+      "unit": "1",
+      "amount": 1500000,
+      "remark": null
+    },
+    {
+      "description": "Platform landing page creation",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "Recruiting guests",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "Event-us HR lead targeting sending",
+      "unit_krw": 1,
+      "quantity": 3000,
+      "unit": "1",
+      "amount": 3000000,
+      "remark": null
+    },
+    {
+      "description": "Event-us HR AD supporting",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "Live streaming production",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 4000000,
+      "remark": null
+    },
+    {
+      "description": "Camera",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1000000,
+      "remark": null
+    },
+    {
+      "description": "System console",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1500000,
+      "remark": null
+    },
+    {
+      "description": "Studio rental",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 500000,
+      "remark": null
+    },
+    {
+      "description": "Console staff",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 500000,
+      "remark": null
+    },
+    {
+      "description": "Lighting and other materials",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 500000,
+      "remark": null
+    },
+    {
+      "description": "agency fee 10%",
+      "unit_krw": 1,
+      "quantity": 0.1,
+      "unit": "1",
+      "amount": 680000,
+      "remark": null
+    },
+    {
+      "description": "cut",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "OTHER COMMENTS",
+      "unit_krw": "TOTAL",
+      "quantity": null,
+      "unit": "TOTAL",
+      "amount": 7480000,
+      "remark": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact",
+      "unit_krw": "TOTAL Due",
+      "quantity": null,
+      "unit": "TOTAL Due",
+      "amount": 8228000,
+      "remark": null
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

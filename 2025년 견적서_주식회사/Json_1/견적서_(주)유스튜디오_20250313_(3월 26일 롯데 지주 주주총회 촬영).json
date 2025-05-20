@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250313_(3월 26일 롯데 지주 주주총회 촬영).xlsx"
+  },
+  "items": [
+    {
+      "description": "카메라 및 삼각대",
+      "unit_krw": 600000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 1200000,
+      "remark": ""
+    },
+    {
+      "description": "촬영인력",
+      "unit_krw": "300,000\n300,000",
+      "quantity": 2,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "후 편집",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "기타자재",
+      "unit_krw": 200000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": "카메라 연결라인"
+    },
+    {
+      "description": "출장",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "tv 설치",
+      "unit_krw": 400000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 400000,
+      "remark": ""
+    },
+    {
+      "description": "연단 모니터 설치",
+      "unit_krw": 200000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 200000,
+      "remark": ""
+    },
+    {
+      "description": "매립용 보드 제작",
+      "unit_krw": 200000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 200000,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

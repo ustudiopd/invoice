@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250122_(AWS ExecLeaders 2025)_네오다임_이근탁_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "AWS ExecLeaders | 5300000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "카메라 및 발표자료 캡처시스템 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "카메라 | 3 | 1 | 600000 | 중앙2/측1",
+      "quantity": 3,
+      "day": null,
+      "unit_price": 600000,
+      "amount": null
+    },
+    {
+      "description": "카메라 스위처 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "콘솔 및 촬영 인력 | 4 | 1 | 300000 | 콘솔/촬영",
+      "quantity": 4,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "기타자재 | 1 | 1 | 300000 | 삼각대 및 기타라인 , 분배기",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "Women Leaders Forum | 4500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "카메라 및 발표자료 캡처시스템 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "카메라 | 3 | 1 | 600000 | 중앙2/측1",
+      "quantity": 3,
+      "day": null,
+      "unit_price": 600000,
+      "amount": null
+    },
+    {
+      "description": "카메라 스위처 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "콘솔 및 촬영 인력 | 3 | 1 | 300000 | 콘솔/촬영",
+      "quantity": 3,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "기타자재 | 1 | 1 | 300000 | 삼각대 및 기타라인 , 분배기",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "편집 | 3000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "AWS ExecLeaders  세션 편집 | 1 | 1 | 2000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 2000000,
+      "amount": null
+    },
+    {
+      "description": "Women Leaders Forum 세션 편집 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "추가사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "리허설 | 1 | 1 | 2000000 | 2000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 2000000,
+      "amount": null
+    },
+    {
+      "description": "출장 및 셋팅 | 1 | 1 | 1000000 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "대포렌즈 | 2 | 1 | 800000 | 1600000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 800000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 17400000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 1740000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 19140000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

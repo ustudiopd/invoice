@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250320_(avl 강의 영상 촬영, 편집)_avl.xlsx"
+  },
+  "items": [
+    {
+      "description": "강의영상 제작(스튜디오 촬영)",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "렌탈/촬영 | 스튜디오 렌탈 기본 4시간 | 4 | 2 | 150000 | 1200000 | 콘솔/ 스튜디오/ 촬영기재 일체",
+      "quantity": 4,
+      "day": 2,
+      "unit_price": 150000,
+      "amount": null
+    },
+    {
+      "description": "제작 | 편집 | 5 | 1 | 500000 | 2500000",
+      "quantity": 5,
+      "day": 1,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "국문 자막작업 | 3 | 1 | 300000 | 900000",
+      "quantity": 3,
+      "day": 1,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "Q&A 편집 및 인트로 | 2 | 1 | 200000 | 400000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "종합 편집 (완성본 라이브용) | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 5500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 550000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 6050000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

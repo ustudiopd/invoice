@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "file_name": "Ustudio_INVOICE 20250331_(AzureOpenAI Community Event Planning and Organization )_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Note",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Planning and Venue | 5170000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 5170000
+    },
+    {
+      "description": "Venue and purchase items | 5170000 | 1 | 1 | 5170000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 5170000
+    },
+    {
+      "description": "Welcome Coffee Break | 0 | 1 | 1 | 0",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 0
+    },
+    {
+      "description": "FOOD | 0 | 1 | 1 | 0",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 0
+    },
+    {
+      "description": "Event operations | 5575000 | 100",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 5575000
+    },
+    {
+      "description": "Planning and Program Organization | 350000 | 1 | 1 | 350000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 350000
+    },
+    {
+      "description": "PM | 300000 | 1 | 1 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 300000
+    },
+    {
+      "description": "Staff | 225000 | 1 | 1 | 225000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 225000
+    },
+    {
+      "description": "Staff meals (lunch ) | 100000 | 1 | 1 | 100000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 100000
+    },
+    {
+      "description": "logistics cost (Installation and return) | 100000 | 1 | 1 | 100000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 100000
+    },
+    {
+      "description": "Gift | 4500000 | 1 | 1 | 4500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 4500000
+    },
+    {
+      "description": "Design & printout | 1100000 | 110",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 1100000
+    },
+    {
+      "description": "Design | 300000 | 1 | 1 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 300000
+    },
+    {
+      "description": "Basic x banner | 50000 | 4 | 1 | 200000",
+      "quantity": 4,
+      "day": null,
+      "unit_price": 1,
+      "amount": 200000
+    },
+    {
+      "description": "Main banner | 200000 | 2 | 1 | 400000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 400000
+    },
+    {
+      "description": "Foam board (podium,lobby) | 50000 | 4 | 1 | 200000",
+      "quantity": 4,
+      "day": null,
+      "unit_price": 1,
+      "amount": 200000
+    },
+    {
+      "description": "AV system | 4600000 | 330",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 4600000
+    },
+    {
+      "description": "Photographer | 700000 | 1 | 1 | 700000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 700000
+    },
+    {
+      "description": "Filming and Editing (On Demand) | 1000000 | 2 | 1 | 2000000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 2000000
+    },
+    {
+      "description": "Av switcher (laptop and presenter ) | 300000 | 2 | 1 | 600000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 600000
+    },
+    {
+      "description": "Av system engineer | 300000 | 2 | 1 | 600000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 600000
+    },
+    {
+      "description": "Sound mixer | 200000 | 1 | 1 | 200000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 200000
+    },
+    {
+      "description": "Live streaming | 500000 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 500000
+    },
+    {
+      "description": "Total",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "agency fee 10% | 16445000 | 0.1 | 1 | 1644500 | 160",
+      "quantity": 0.1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1644500
+    },
+    {
+      "description": "cut | -37000 | 1 | 1 | -37000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": -37000
+    },
+    {
+      "description": "18052500",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 18052500
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 18052500",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 18052500
+    },
+    {
+      "description": "Tax rate | 0.1",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": 0.1
+    },
+    {
+      "description": "Tax due | 1805250",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": 1805250
+    },
+    {
+      "description": "Other | 0",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Other",
+      "amount": 0
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 19857750",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 19857750
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "file_name": "Ustudio_INVOICE 20250507_(리스페이스_도루코 전체)_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Planning",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 4060000,
+      "remark": null
+    },
+    {
+      "description": "기획",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "운영 오퍼레이터",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 1000000,
+      "remark": null
+    },
+    {
+      "description": "리허설 진행비",
+      "unit_krw": 1,
+      "quantity": 5,
+      "unit": "1",
+      "amount": 2500000,
+      "remark": null
+    },
+    {
+      "description": "숙박비용 8실",
+      "unit_krw": 1,
+      "quantity": 8,
+      "unit": "1",
+      "amount": 560000,
+      "remark": null
+    },
+    {
+      "description": "성우비용",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Video production",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 17500000,
+      "remark": null
+    },
+    {
+      "description": "Opening video",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 6000000,
+      "remark": null
+    },
+    {
+      "description": "History video",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 6000000,
+      "remark": null
+    },
+    {
+      "description": "Bridge video",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1000000,
+      "remark": null
+    },
+    {
+      "description": "Visual Jockey (vj 영상)",
+      "unit_krw": 1,
+      "quantity": 0,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "Sketch video shooting editing",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 4500000,
+      "remark": null
+    },
+    {
+      "description": "Lighting (조명)",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 14700000,
+      "remark": null
+    },
+    {
+      "description": "LED 줌라이트",
+      "unit_krw": 1,
+      "quantity": 30,
+      "unit": "1",
+      "amount": 4500000,
+      "remark": null
+    },
+    {
+      "description": "LED COB",
+      "unit_krw": 1,
+      "quantity": 0,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "LED BAR 150W",
+      "unit_krw": 1,
+      "quantity": 20,
+      "unit": "1",
+      "amount": 2400000,
+      "remark": null
+    },
+    {
+      "description": "LED BAR MINI",
+      "unit_krw": 1,
+      "quantity": 10,
+      "unit": "1",
+      "amount": 800000,
+      "remark": null
+    },
+    {
+      "description": "7R beem LED",
+      "unit_krw": 1,
+      "quantity": 20,
+      "unit": "1",
+      "amount": 4000000,
+      "remark": null
+    },
+    {
+      "description": "CLAYPAKY SCENIUS SPOT",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 1200000,
+      "remark": null
+    },
+    {
+      "description": "Gobo glass",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 400000,
+      "remark": null
+    },
+    {
+      "description": "조명 콘솔",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 800000,
+      "remark": null
+    },
+    {
+      "description": "감독",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 350000,
+      "remark": null
+    },
+    {
+      "description": "인력",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 250000,
+      "remark": null
+    },
+    {
+      "description": "출장 및 셋팅",
+      "unit_krw": 1,
+      "quantity": 0,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "LED system",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 16000000,
+      "remark": null
+    },
+    {
+      "description": "LED 6m x 4m",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 8000000,
+      "remark": null
+    },
+    {
+      "description": "레이허 및 트러스",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 5000000,
+      "remark": null
+    },
+    {
+      "description": "미디어 폴 1m x 4m",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 2400000,
+      "remark": null
+    },
+    {
+      "description": "출장 및 셋팅",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 600000,
+      "remark": null
+    },
+    {
+      "description": "Audio system",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 5300000,
+      "remark": null
+    },
+    {
+      "description": "모니터 스피커",
+      "unit_krw": 1,
+      "quantity": 0,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "앰프",
+      "unit_krw": 1,
+      "quantity": 0,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "무선 마이크 +16",
+      "unit_krw": 1,
+      "quantity": 10,
+      "unit": "1",
+      "amount": 1000000,
+      "remark": null
+    },
+    {
+      "description": "악기용 마이크",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 200000,
+      "remark": null
+    },
+    {
+      "description": "인이어 팩",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "인터컴",
+      "unit_krw": 1,
+      "quantity": 0,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "콘솔",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 700000,
+      "remark": null
+    },
+    {
+      "description": "감독",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "인력",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 500000,
+      "remark": null
+    },
+    {
+      "description": "출장 및 셋팅",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "드럼",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 800000,
+      "remark": null
+    },
+    {
+      "description": "베이스 앰프",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "신디사이저 (yamaha s90es)",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 600000,
+      "remark": null
+    },
+    {
+      "description": "악기 출장 및 셋팅",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "AV system",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 3700000,
+      "remark": null
+    },
+    {
+      "description": "비디오 스위처",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1500000,
+      "remark": null
+    },
+    {
+      "description": "감독",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "인력",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 250000,
+      "remark": null
+    },
+    {
+      "description": "프롬프터 65인치",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 700000,
+      "remark": null
+    },
+    {
+      "description": "노트북",
+      "unit_krw": 1,
+      "quantity": 5,
+      "unit": "1",
+      "amount": 400000,
+      "remark": null
+    },
+    {
+      "description": "라인 및 기타자재 1000m",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 250000,
+      "remark": null
+    },
+    {
+      "description": "출장 및 셋팅",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "Camera",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": 6000000,
+      "remark": null
+    },
+    {
+      "description": "카메라",
+      "unit_krw": 1,
+      "quantity": 4,
+      "unit": "1",
+      "amount": 2000000,
+      "remark": null
+    },
+    {
+      "description": "지미짚",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1200000,
+      "remark": null
+    },
+    {
+      "description": "비디오 스위처",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 800000,
+      "remark": null
+    },
+    {
+      "description": "콘솔 감독",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 300000,
+      "remark": null
+    },
+    {
+      "description": "카메라 감독",
+      "unit_krw": 1,
+      "quantity": 3,
+      "unit": "1",
+      "amount": 900000,
+      "remark": null
+    },
+    {
+      "description": "삼각대 및 기타 자재",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 200000,
+      "remark": null
+    },
+    {
+      "description": "출장 및 셋팅",
+      "unit_krw": 1,
+      "quantity": 2,
+      "unit": "1",
+      "amount": 600000,
+      "remark": null
+    },
+    {
+      "description": "cut",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 0,
+      "remark": null
+    },
+    {
+      "description": "OTHER COMMENTS",
+      "unit_krw": "TOTAL",
+      "quantity": null,
+      "unit": "TOTAL",
+      "amount": 67260000,
+      "remark": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact",
+      "unit_krw": "TOTAL Due",
+      "quantity": null,
+      "unit": "TOTAL Due",
+      "amount": 73986000,
+      "remark": null
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

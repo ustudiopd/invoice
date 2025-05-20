@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "file_name": "Ustudio_Quo 20250124_(Global AI Bootcamp Daegu)_Microsoft_ver2.xlsx"
+  },
+  "items": [
+    {
+      "description": "Event management",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Planning and Program Organization",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 620455,
+      "remark": null
+    },
+    {
+      "description": "agency fee 10%",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 62045,
+      "remark": null
+    },
+    {
+      "description": "OTHER COMMENTS",
+      "unit_krw": "TOTAL",
+      "quantity": null,
+      "unit": "TOTAL",
+      "amount": 682500,
+      "remark": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact",
+      "unit_krw": "TOTAL Due",
+      "quantity": null,
+      "unit": "TOTAL Due",
+      "amount": 750750,
+      "remark": null
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

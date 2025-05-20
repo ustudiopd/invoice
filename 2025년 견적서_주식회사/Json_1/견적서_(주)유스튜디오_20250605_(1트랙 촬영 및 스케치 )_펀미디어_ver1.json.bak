@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250605_(1트랙 촬영 및 스케치 )_펀미디어_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "트랙 | 일수",
+      "quantity": "트랙",
+      "day": "일수",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "트랙 촬영 | 1 | 1 | 1000000 | 1000000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "카메라 | 2 | 1",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "콘솔 장비 | 2 | 1",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "촬영 감독 | 2 | 1",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "콘솔 인력 | 1 | 1",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "키노트 편집 | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "스케치 촬영 편집 | 1500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "카메라 | 1 | 1",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "편집 | 1 | 1",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "촬영 감독 | 1 | 1",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "추가 사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "셋팅 및 출장비 | 1 | 1 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "전날 리허설",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 3000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 300000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 3300000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

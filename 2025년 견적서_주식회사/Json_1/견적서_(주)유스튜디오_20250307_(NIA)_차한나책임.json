@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250307_(NIA)_차한나책임.xlsx"
+  },
+  "items": [
+    {
+      "description": "기획 및 시나리오작업",
+      "unit_krw": 0,
+      "quantity": 1,
+      "unit": null,
+      "amount": 0,
+      "remark": ""
+    },
+    {
+      "description": "촬영",
+      "unit_krw": 2000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "촬영 인력",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "기타자재",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "이동 및 셋팅",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "드론 촬영",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "편집",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": 2000000,
+      "remark": ""
+    },
+    {
+      "description": "컷 편집",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "모션 그래픽 작업",
+      "unit_krw": 2000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "컬러그레이딩 작업",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "이미지 편집",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "캡션 자막 제작",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "BGM  구매 및 편집",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "진행비",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250102_(1월 퓨어스토리지_라이브)_네오다임_박수민님_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "라이브 송출",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "라이브 송출 | 카메라 및 발표자료 캡처시스템 | 1 | 1 | 1000000 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "라이브 송출 콘솔 | 1 | 1 | 1000000 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "백업 송출 콘솔 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "카메라 스위처 | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "콘솔 및 촬영 인력 | 4 | 1 | 300000 | 1200000 | 콘솔/촬영",
+      "quantity": 4,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "기타자재 | 1 | 1 | 300000 | 300000 | 삼각대 및 기타라인 , 분배기",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "추가 사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "출장 및 셋팅 | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "추가 카메라 | 3 | 1 | 600000 | 1800000",
+      "quantity": 3,
+      "day": null,
+      "unit_price": 600000,
+      "amount": null
+    },
+    {
+      "description": "크로마키 촬영 | 1 | 1 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "종료 후 편집 | 1 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 6800000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 680000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 7480000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

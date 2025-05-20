@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250312_(4월 웨비나 쇼츠 영상 제작 )_플랜트8_ver2.xlsx"
+  },
+  "items": [
+    {
+      "description": "편집 및 추가사항",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "스토리 보드 작성",
+      "unit_krw": 100000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 200000,
+      "remark": ""
+    },
+    {
+      "description": "캡션 및 이미지 편집",
+      "unit_krw": 300000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 600000,
+      "remark": ""
+    },
+    {
+      "description": "쇼츠 편집",
+      "unit_krw": 400000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 800000,
+      "remark": ""
+    },
+    {
+      "description": "모션 이미지작업",
+      "unit_krw": 400000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 800000,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

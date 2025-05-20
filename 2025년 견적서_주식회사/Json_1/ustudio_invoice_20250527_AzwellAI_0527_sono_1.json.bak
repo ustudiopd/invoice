@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "file_name": "ustudio_invoice_20250527_AzwellAI_0527_sono_1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Planning & management | 1500000 | 1 | 1 | 1500000 | 1041.6666666666667",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1500000
+    },
+    {
+      "description": "Venue Fee (Venue fee included in lunch) | 78000 | 200 | 1 | 15600000 | 10833.333333333334",
+      "quantity": 200,
+      "day": null,
+      "unit_price": 1,
+      "amount": 15600000
+    },
+    {
+      "description": "A/V equipment rental, banner, lanyard production & operation | 4350000 | 1 | 1 | 4350000 | 3020.8333333333335",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 4350000
+    },
+    {
+      "description": "Staff outsourcing | 1900000 | 1 | 1 | 1900000 | 1319.4444444444443",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1900000
+    },
+    {
+      "description": "Miscellaneous | 1700000 | 1 | 1 | 1700000 | 1180.5555555555557",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1700000
+    },
+    {
+      "description": "Agency commission 15% | 25050000 | 1 | 0.15 | 3757500 | 2609.375",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 0.15,
+      "amount": 3757500
+    },
+    {
+      "description": "28807500 | 20005.208333333332",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 28807500
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 28807500 | 20005.208333333332",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 28807500
+    },
+    {
+      "description": "Tax rate",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": null
+    },
+    {
+      "description": "Tax due",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": null
+    },
+    {
+      "description": "cut | -7500 | -5.208333333333333",
+      "quantity": null,
+      "day": null,
+      "unit_price": "cut",
+      "amount": -7500
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 28800000 | 20000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 28800000
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

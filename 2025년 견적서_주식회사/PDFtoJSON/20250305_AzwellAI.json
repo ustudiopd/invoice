@@ -1,0 +1,82 @@
+{
+  "견적번호": "",
+  "견적일자": "",
+  "거래처명": "",
+  "카테고리": [
+    {
+      "category": "Venue Fee",
+      "amount": 0,
+      "items": [
+        {
+          "품목명": "Venue Fee (Venue fee included in lunch)",
+          "수량": 1,
+          "단가": 1,
+          "금액": 0
+        }
+      ]
+    },
+    {
+      "category": "Lunch",
+      "amount": 6030000,
+      "items": [
+        {
+          "품목명": "Lunch",
+          "수량": 90,
+          "단가": 67000,
+          "금액": 6030000
+        }
+      ]
+    },
+    {
+      "category": "Cookie & Coffee",
+      "amount": 990000,
+      "items": [
+        {
+          "품목명": "Cookie & Coffee",
+          "수량": 90,
+          "단가": 11000,
+          "금액": 990000
+        }
+      ]
+    },
+    {
+      "category": "Operations System & Staff",
+      "amount": 2800000,
+      "items": [
+        {
+          "품목명": "Operations System & Staff (console, Registration Desk Operations)",
+          "수량": 1,
+          "단가": 2800000,
+          "금액": 2800000
+        }
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "amount": 80990,
+      "items": [
+        {
+          "품목명": "Miscellaneous",
+          "수량": 1,
+          "단가": 80990,
+          "금액": 80990
+        }
+      ]
+    },
+    {
+      "category": "agency fee 9%",
+      "amount": 99010,
+      "items": [
+        {
+          "품목명": "agency fee 9%",
+          "수량": 0.1,
+          "단가": 990099,
+          "금액": 99010
+        }
+      ]
+    }
+  ],
+  "합계금액": 10000000,
+  "세액": "",
+  "총액": 10000000
+}

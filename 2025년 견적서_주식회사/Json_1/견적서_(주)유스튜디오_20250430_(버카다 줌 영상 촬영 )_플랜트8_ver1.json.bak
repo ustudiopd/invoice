@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250430_(버카다 줌 영상 촬영 )_플랜트8_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "줌 영상 촬영 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "줌 링크 제공및 시스템 콘솔 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "편집 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "에프터이펙트 작업 (모션) | 1 | `",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "컷 편집 작업 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "종합 편집 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 800000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 80000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 880000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

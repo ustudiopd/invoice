@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250428_(10월 시큐아이)_온페이퍼_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "세션 촬영/편집/",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "녹화 시스템 콘솔",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1000000,
+      "remark": ""
+    },
+    {
+      "description": "카메라 스위처",
+      "unit_krw": 700000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 700000,
+      "remark": ""
+    },
+    {
+      "description": "카메라",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1500000,
+      "remark": "정면 풀샷 측면"
+    },
+    {
+      "description": "지미짚",
+      "unit_krw": 800000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 800000,
+      "remark": ""
+    },
+    {
+      "description": "촬영 감독",
+      "unit_krw": 250000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 500000,
+      "remark": ""
+    },
+    {
+      "description": "콘솔 감독",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "세션 편집",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 500000,
+      "remark": ""
+    },
+    {
+      "description": "영상 제작 및 추가사항",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "스케치 영상 제작",
+      "unit_krw": 2000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 2000000,
+      "remark": ""
+    },
+    {
+      "description": "오프닝 영상 제작",
+      "unit_krw": 5000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 5000000,
+      "remark": ""
+    },
+    {
+      "description": "제품 영상",
+      "unit_krw": 5000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 5000000,
+      "remark": ""
+    },
+    {
+      "description": "브랜드 영상",
+      "unit_krw": 5000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 5000000,
+      "remark": ""
+    },
+    {
+      "description": "브릿지 영상 제작",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1000000,
+      "remark": "모션 브릿지 영상"
+    },
+    {
+      "description": "출장 및 셋팅",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 500000,
+      "remark": "스케치/ 촬영팀"
+    },
+    {
+      "description": "리허설 진행비",
+      "unit_krw": 1500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1500000,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

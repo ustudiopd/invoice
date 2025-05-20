@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "file_name": "ustudio_invoice_20250527_AzwellAI_0527_sono_1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Planning & management",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1041.67,
+      "remark": null
+    },
+    {
+      "description": "Venue Fee (Venue fee included in lunch)",
+      "unit_krw": 1,
+      "quantity": 200,
+      "unit": "1",
+      "amount": 10833.33,
+      "remark": null
+    },
+    {
+      "description": "A/V equipment rental, banner, lanyard production & operation",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 3020.83,
+      "remark": null
+    },
+    {
+      "description": "Staff outsourcing",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1319.44,
+      "remark": null
+    },
+    {
+      "description": "Miscellaneous",
+      "unit_krw": 1,
+      "quantity": 1,
+      "unit": "1",
+      "amount": 1180.56,
+      "remark": null
+    },
+    {
+      "description": "Agency commission 15%",
+      "unit_krw": 0.15,
+      "quantity": 1,
+      "unit": "0.15",
+      "amount": 2609.38,
+      "remark": null
+    },
+    {
+      "description": "OTHER COMMENTS",
+      "unit_krw": "TOTAL",
+      "quantity": null,
+      "unit": "TOTAL",
+      "amount": 20005.21,
+      "remark": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact",
+      "unit_krw": "TOTAL Due",
+      "quantity": null,
+      "unit": "TOTAL Due",
+      "amount": 20000,
+      "remark": null
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": "",
+      "amount": null,
+      "remark": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

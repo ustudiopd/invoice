@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250422_(2025_구글 조명 렌탈)_GPJ_김문현_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Green Screen",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "MANFROTTO green screen 4 x 2.3m",
+      "unit_krw": 400000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 400000,
+      "remark": "Panoramic Background 4m Chromakey Green"
+    },
+    {
+      "description": "Light (Dark)",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "Amaran 300c",
+      "unit_krw": 150000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "Aputure Light Dome II (90cm)",
+      "unit_krw": 50000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 100000,
+      "remark": ""
+    },
+    {
+      "description": "Manfrotto 1004BAC",
+      "unit_krw": 150000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "Light (natural light window)",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "Aputure Light Storm 600x Pro",
+      "unit_krw": 300000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 600000,
+      "remark": ""
+    },
+    {
+      "description": "Aputure Light Dome II (90cm)",
+      "unit_krw": 50000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 100000,
+      "remark": ""
+    },
+    {
+      "description": "Manfrotto 1004BAC",
+      "unit_krw": 150000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "Delivery",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "power cord etc",
+      "unit_krw": 100000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 100000,
+      "remark": ""
+    },
+    {
+      "description": "Delivery and return",
+      "unit_krw": 150000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

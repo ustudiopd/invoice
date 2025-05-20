@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250404_(8월 온라인 발대식 이벤터스 라이브)_주식회사 플립턴_노아람님_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "라이브 송출",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "라이브 송출 | 라이브 송출 콘솔 | 1 | 1 | 800000 | 800000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 800000,
+      "amount": null
+    },
+    {
+      "description": "추가 카메라 | 2 | 1 | 300000 | 600000 | 기본 카메라 1대",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "인력 | 3 | 1 | 300000 | 900000 | 콘솔/촬영/이벤터스",
+      "quantity": 3,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "노트북 | 1 | 1 | 100000 | 100000 | 이벤터스 관리용",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "기타자재 | 1 | 1 | 300000 | 300000 | 삼각대 및 기타라인 , 분배기",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "추가 사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "출장 촬영 | 1 | 1 | 300000 | 300000 | 수도권 10, 지방 30",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 3000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 300000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 3300000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_2025 Q2 NoD Translation.xlsx"
+  },
+  "items": [
+    {
+      "description": "주니퍼 NoD 뉴스레터",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": "번역 및 발간 작업 일체\n월 1회, 분기 3회 (2025년 4월 ~ 6월)"
+    },
+    {
+      "description": "Agency Commission 10%",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "cut",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

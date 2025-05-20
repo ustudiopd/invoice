@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250313_(롯데지주 사진슬라이드 영상 제작).xlsx"
+  },
+  "items": [
+    {
+      "description": "사진 슬라이드 영상 제작 | 1 | 600000 | 600000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 600000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 600000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 60000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 660000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

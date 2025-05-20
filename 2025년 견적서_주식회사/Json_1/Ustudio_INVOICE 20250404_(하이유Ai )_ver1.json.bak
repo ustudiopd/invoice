@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "file_name": "Ustudio_INVOICE 20250404_(하이유Ai )_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Note",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Planning | 2000000",
+      "quantity": null,
+      "day": 2000000,
+      "unit_price": null,
+      "amount": 2000000
+    },
+    {
+      "description": "기획 회의 및 미팅 | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": 1000000,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "와이어 프레임 및 설계서 작성 (클라이언트 - 개발자 ) | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": 1000000,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "Design | 2500000",
+      "quantity": null,
+      "day": 2500000,
+      "unit_price": null,
+      "amount": 2500000
+    },
+    {
+      "description": "메인페이지, 서브페이지 | 2000000 | 1 | 1 | 2000000",
+      "quantity": 1,
+      "day": 2000000,
+      "unit_price": 1,
+      "amount": 2000000
+    },
+    {
+      "description": "추가 및 수정 | 500000 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": 500000,
+      "unit_price": 1,
+      "amount": 500000
+    },
+    {
+      "description": "Development (웹페이지 개발) | 25500000",
+      "quantity": null,
+      "day": 25500000,
+      "unit_price": null,
+      "amount": 25500000
+    },
+    {
+      "description": "프론트엔드 개발 HTML/CSS/JavaScript (반응형 웹 기준) | 3000000 | 1 | 1 | 3000000",
+      "quantity": 1,
+      "day": 3000000,
+      "unit_price": 1,
+      "amount": 3000000
+    },
+    {
+      "description": "백엔드 개발  (관리자 페이지 개발 및 데이터베이스 구축) | 8000000 | 1 | 1 | 8000000",
+      "quantity": 1,
+      "day": 8000000,
+      "unit_price": 1,
+      "amount": 8000000
+    },
+    {
+      "description": "RAG 연동 개발 (RAG Integration Development) | 5000000 | 1 | 1 | 5000000",
+      "quantity": 1,
+      "day": 5000000,
+      "unit_price": 1,
+      "amount": 5000000
+    },
+    {
+      "description": "데이터 추출 및 리포팅 시스템  (데이터 수집, 분석, 결과값 자동 리포팅 시스템 구축) | 5000000 | 1 | 1 | 5000000",
+      "quantity": 1,
+      "day": 5000000,
+      "unit_price": 1,
+      "amount": 5000000
+    },
+    {
+      "description": "퍼플리싱 작업 | 1500000 | 1 | 1 | 1500000",
+      "quantity": 1,
+      "day": 1500000,
+      "unit_price": 1,
+      "amount": 1500000
+    },
+    {
+      "description": "테스트 및 배포 (크로스브라우징 테스트, 서버 배포 및 안정화 작업) | 3000000 | 1 | 1 | 3000000",
+      "quantity": 1,
+      "day": 3000000,
+      "unit_price": 1,
+      "amount": 3000000
+    },
+    {
+      "description": "유지보수 | 1500000",
+      "quantity": null,
+      "day": 1500000,
+      "unit_price": null,
+      "amount": 1500000
+    },
+    {
+      "description": "디자인 추가 및 수정 (관리 콘솔 시각화 수정) | 500000 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": 500000,
+      "unit_price": 1,
+      "amount": 500000
+    },
+    {
+      "description": "1달 단위 구독 유지 서비스 (상담 및 대응) | 500000 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": 500000,
+      "unit_price": 1,
+      "amount": 500000
+    },
+    {
+      "description": "데이터 표본화 작업 ( 추출 데이터 연계 보안 클라우드작업) | 500000 | 1 | 1 | 500000",
+      "quantity": 1,
+      "day": 500000,
+      "unit_price": 1,
+      "amount": 500000
+    },
+    {
+      "description": "Total",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "agency fee 10% | 31500000 | 0 | 1 | 0",
+      "quantity": 0,
+      "day": 0,
+      "unit_price": 1,
+      "amount": 0
+    },
+    {
+      "description": "cut | 1 | 1 | 0",
+      "quantity": 1,
+      "day": 0,
+      "unit_price": 1,
+      "amount": 0
+    },
+    {
+      "description": "31500000",
+      "quantity": null,
+      "day": 31500000,
+      "unit_price": null,
+      "amount": 31500000
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 31500000",
+      "quantity": null,
+      "day": 31500000,
+      "unit_price": "TOTAL",
+      "amount": 31500000
+    },
+    {
+      "description": "Tax rate | 0.1",
+      "quantity": null,
+      "day": 0.1,
+      "unit_price": "Tax rate",
+      "amount": 0.1
+    },
+    {
+      "description": "Tax due | 3150000",
+      "quantity": null,
+      "day": 3150000,
+      "unit_price": "Tax due",
+      "amount": 3150000
+    },
+    {
+      "description": "Other | 0",
+      "quantity": null,
+      "day": 0,
+      "unit_price": "Other",
+      "amount": 0
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 34650000",
+      "quantity": null,
+      "day": 34650000,
+      "unit_price": "TOTAL Due",
+      "amount": 34650000
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

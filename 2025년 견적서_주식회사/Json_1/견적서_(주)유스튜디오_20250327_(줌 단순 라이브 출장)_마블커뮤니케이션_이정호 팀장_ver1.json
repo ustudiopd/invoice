@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250327_(줌 단순 라이브 출장)_마블커뮤니케이션_이정호 팀장_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "노트북 마이크 화상 카메라",
+      "unit_krw": 150000,
+      "quantity": 4,
+      "unit": null,
+      "amount": 600000,
+      "remark": ""
+    },
+    {
+      "description": "인력",
+      "unit_krw": 200000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 200000,
+      "remark": ""
+    },
+    {
+      "description": "기타 사항",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "출장 및 셋팅비",
+      "unit_krw": 200000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 200000,
+      "remark": ""
+    },
+    {
+      "description": "경기 대전",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 0,
+      "remark": ""
+    },
+    {
+      "description": "전라, 경상",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 0,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

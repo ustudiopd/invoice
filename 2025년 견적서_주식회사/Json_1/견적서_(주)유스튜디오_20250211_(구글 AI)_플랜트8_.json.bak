@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250211_(구글 AI)_플랜트8_.xlsx"
+  },
+  "items": [
+    {
+      "description": "촬영 | 30 | 2000000 | 60000000",
+      "quantity": 30,
+      "day": null,
+      "unit_price": 2000000,
+      "amount": null
+    },
+    {
+      "description": "편집 | 30 | 2000000 | 60000000",
+      "quantity": 30,
+      "day": null,
+      "unit_price": 2000000,
+      "amount": null
+    },
+    {
+      "description": "초기 웹피이지 제작 | 1 | 5000000 | 5000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 5000000,
+      "amount": null
+    },
+    {
+      "description": "웹페이지 및 eDM | 30 | 1000000 | 30000000",
+      "quantity": 30,
+      "day": null,
+      "unit_price": 1000000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 155000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 15500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 170500000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

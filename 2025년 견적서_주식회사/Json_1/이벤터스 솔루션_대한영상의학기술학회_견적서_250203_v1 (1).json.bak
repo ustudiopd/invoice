@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "file_name": "이벤터스 솔루션_대한영상의학기술학회_견적서_250203_v1 (1).xlsx"
+  },
+  "items": [
+    {
+      "description": "솔루션 이용료 | 온/오프라인 솔루션 | 1회 | 1 | 1500000 | 1500000 | 온라인 신청 인원 1000명 이하",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "명찰/QR출석 솔루션 | 1회 | 1 | 1500000 | 1500000 | QR체크인 기능 포함, 오프라인 신청 인원 500명 이하/ 장비, 소모품 포함",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "이벤터스 담당자 파견 | 1인 | 1.5 | 550000 | 825000 | 전일셋업 포함 1.5일",
+      "quantity": 1.5,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "파견 경비 | 1회 | 1 | 100000 | 100000 | 수도권 10/ 대전,충청,세종 40/ 그외지역 60 /제주 별도 협의",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "온/오프라인\n프로덕션 | *촬영 및 스트리밍 | 1 세트 | 1 | 1500000 | 1500000 | 스트리밍 기본 옵션 (세부사항 하단 참조)",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "음향 시스템 | 1 세트 | 1 | 1000000 | 1000000 | 3명 이상 동시 발언시 필수 / 마이크 6ea, 콘솔, 음향 기사 포함",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "현장 시스템 | 1set | 1 | 1000000 | 1000000 | 현장 스크린 연결, 분배",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "카메라 | 1 대 | 3 | 500000 | 1500000 | 기본 옵션 외 추가시 (사회자, 좌장, 연사, 전체촬영)",
+      "quantity": 3,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "프롬프터(55인치) | 1 대 | 1 | 250000 | 250000 | 발표자료 확인용",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "노트북 | 1대 | 5 | 70000 | 350000 | 발표자료, 좌장, 브릿지, 송출확인, 백업",
+      "quantity": 5,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "엔지니어 | 1인 | 4 | 250000 | 1000000 | 시스템 운영 2인, 촬영감독 2인",
+      "quantity": 4,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "출장 경비 | 1회 | 1 | 500000 | 500000 | 유류비, 운영비 등",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "기타 자재 | 1식 | 1 | 300000 | 300000 | 각종 라인 및 기타 영상자재, 소모품",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "출장 및 셋팅 | 1회 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "프로덕션 추가 | 전일 셋업 및 리허설 | 1회 | 1 | 3850000 | 3850000 | 프로덕션 비용의 50% 추가",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "기획/운영 | 기획 | 1 대 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "현장 운영 PM | 1 대 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "등록 데스크 운영 인력 | 1 대 | 2 | 200000 | 400000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "디자인 | 100 개 | 1 | 500000 | 500000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "디자인 | 500 매 | 1 | 800000 | 800000 | 템플릿 제작 후 이벤터스 디자인 및 오프라인 출력물",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "출력물 | 250 매 | 1 | 500000 | 500000 | 현수막/ 동선,아젠다 배너 /폼보드 등",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "이메일 및 문자 발송 | 1 인 | 1 | 150000 | 150000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "노트북 | 1 인 | 2 | 70000 | 140000 | 등록데스크 운영",
+      "quantity": 2,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "프린터 및 사무 용품 | 1 세트 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "출장경비 | 1 대 | 1 | 300000 | 300000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "기타 | 대행비 | 1회 | 1 | 1926500 | 1926500 | 총 견적의 10%",
+      "quantity": 1,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "0 | 0 | 0",
+      "quantity": 0,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "합          계 | 소계의 합 | 21191500",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "부   가   세 | 총계의 10% | 2119150",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "기타사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

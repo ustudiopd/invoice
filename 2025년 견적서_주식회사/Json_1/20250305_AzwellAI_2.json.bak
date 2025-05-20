@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "file_name": "20250305_AzwellAI_2.xlsx"
+  },
+  "items": [
+    {
+      "description": "Venue Fee (Venue fee included in lunch)",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Lunch | 78000 | 100 | 1 | 7800000 | 5416.666666666667",
+      "quantity": 100,
+      "day": null,
+      "unit_price": 1,
+      "amount": 7800000
+    },
+    {
+      "description": "Operations System & Staff (console, Registration Desk Operations) | 1600000 | 1 | 1 | 1600000 | 1111.111111111111",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1600000
+    },
+    {
+      "description": "Miscellaneous | 680000 | 1 | 1 | 680000 | 472.22222222222223",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 680000
+    },
+    {
+      "description": "10080000 | 7000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 10080000
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 10080000 | 7000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 10080000
+    },
+    {
+      "description": "Tax rate",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": null
+    },
+    {
+      "description": "Tax due",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": null
+    },
+    {
+      "description": "cut",
+      "quantity": null,
+      "day": null,
+      "unit_price": "cut",
+      "amount": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 10080000 | 7000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 10080000
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

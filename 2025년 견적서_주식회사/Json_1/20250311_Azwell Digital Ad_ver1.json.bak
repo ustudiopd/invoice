@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "file_name": "20250311_Azwell Digital Ad_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Digital advertising platform _ linkedin _Google Ads | 2000000 | 1 | 1 | 2000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 2000000
+    },
+    {
+      "description": "landing page | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "AD Design | 700000 | 1 | 1 | 700000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 700000
+    },
+    {
+      "description": "PM | 200000 | 1 | 1 | 200000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 200000
+    },
+    {
+      "description": "agency fee 10% | 3900000 | 0.1 | 1 | 390000",
+      "quantity": 0.1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 390000
+    },
+    {
+      "description": "4290000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 4290000
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 4290000 | 0",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 4290000
+    },
+    {
+      "description": "Tax rate",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": null
+    },
+    {
+      "description": "Tax due",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": null
+    },
+    {
+      "description": "cut",
+      "quantity": null,
+      "day": null,
+      "unit_price": "cut",
+      "amount": null
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 4290000 | 0",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 4290000
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

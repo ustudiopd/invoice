@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250422_(2025_구글 조명 렌탈)_GPJ_김문현_ver3.xlsx"
+  },
+  "items": [
+    {
+      "description": "Light",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Amaran 300c | 2 | 1 | 150000 | 300000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 150000,
+      "amount": null
+    },
+    {
+      "description": "Aputure Light Dome II (90cm) | 2 | 1 | 50000 | 100000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 50000,
+      "amount": null
+    },
+    {
+      "description": "Manfrotto 1004BAC | 2 | 1 | 150000 | 300000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 150000,
+      "amount": null
+    },
+    {
+      "description": "Etc",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "sony d21 mic 1set | 1 | 1 | 100000 | 100000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "Presenter | 1 | 1 | 100000 | 100000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "mac (m1 max pro) | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "monitor stand dally (LG Standbymi) | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "power cord etc | 1 | 1 | 100000 | 100000 | 40m 1ea/20 2ea",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 100000,
+      "amount": null
+    },
+    {
+      "description": "Delivery",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Delivery and return | 2 | 1 | 150000 | 300000",
+      "quantity": 2,
+      "day": 1,
+      "unit_price": 150000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 2000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 200000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 2200000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

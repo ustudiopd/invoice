@@ -1,0 +1,238 @@
+{
+  "template_type": "영문 INVOICE",
+  "header": {},
+  "items": [
+    {
+      "category": "Planning and Venue (아모리스)",
+      "category_total": 16820000,
+      "items": [
+        {
+          "description": "Venue and purchase items",
+          "unit_krw": 500000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 500000,
+          "remark": null
+        },
+        {
+          "description": "The day before the event",
+          "unit_krw": 4400000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": null,
+          "remark": null
+        },
+        {
+          "description": "Parking ticket",
+          "unit_krw": 13200,
+          "qty": 100,
+          "unit": 1,
+          "amount_krw": 1320000,
+          "remark": null
+        },
+        {
+          "description": "Standing Buffe",
+          "unit_krw": 50000,
+          "qty": 300,
+          "unit": 1,
+          "amount_krw": 15000000,
+          "remark": null
+        }
+      ]
+    },
+    {
+      "category": "Event operations",
+      "category_total": 6250000,
+      "items": [
+        {
+          "description": "Planning and Program Organization",
+          "unit_krw": 500000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 500000,
+          "remark": null
+        },
+        {
+          "description": "PM (세미나장/ 로비)",
+          "unit_krw": 300000,
+          "qty": 2,
+          "unit": 1,
+          "amount_krw": 600000,
+          "remark": null
+        },
+        {
+          "description": "Staff",
+          "unit_krw": 225000,
+          "qty": 10,
+          "unit": 1,
+          "amount_krw": 2250000,
+          "remark": null
+        },
+        {
+          "description": "Name tag",
+          "unit_krw": 4000,
+          "qty": 350,
+          "unit": 1,
+          "amount_krw": 1400000,
+          "remark": null
+        },
+        {
+          "description": "Staff meals (lunch ) & snack (아침 점심)",
+          "unit_krw": 20000,
+          "qty": 20,
+          "unit": 2,
+          "amount_krw": 800000,
+          "remark": null
+        },
+        {
+          "description": "logistics cost (Installation and return)",
+          "unit_krw": 200000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 200000,
+          "remark": null
+        }
+      ]
+    },
+    {
+      "category": "Rental",
+      "category_total": 7500000,
+      "items": [
+        {
+          "description": "Basic x banner",
+          "unit_krw": 700000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 700000,
+          "remark": null
+        },
+        {
+          "description": "Main banner",
+          "unit_krw": 500000,
+          "qty": 2,
+          "unit": 1,
+          "amount_krw": 1000000,
+          "remark": null
+        },
+        {
+          "description": "Foam board (podium,lobby)",
+          "unit_krw": 300000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 300000,
+          "remark": null
+        },
+        {
+          "description": "Both material ( TV etc..)",
+          "unit_krw": 1000000,
+          "qty": 5,
+          "unit": 1,
+          "amount_krw": 5000000,
+          "remark": null
+        },
+        {
+          "description": "logistics cost (Installation and return)",
+          "unit_krw": 250000,
+          "qty": 2,
+          "unit": 1,
+          "amount_krw": 500000,
+          "remark": null
+        }
+      ]
+    },
+    {
+      "category": "AV system",
+      "category_total": 6700000,
+      "items": [
+        {
+          "description": "Photographer",
+          "unit_krw": 800000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 800000,
+          "remark": null
+        },
+        {
+          "description": "Live streming",
+          "unit_krw": 2500000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 2500000,
+          "remark": null
+        },
+        {
+          "description": "Av switcher",
+          "unit_krw": 800000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 800000,
+          "remark": null
+        },
+        {
+          "description": "laptop and presenter",
+          "unit_krw": 300000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 300000,
+          "remark": null
+        },
+        {
+          "description": "Tv for prompter",
+          "unit_krw": 300000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 300000,
+          "remark": null
+        },
+        {
+          "description": "Av system engineer",
+          "unit_krw": 300000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 300000,
+          "remark": null
+        },
+        {
+          "description": "Sound mixer",
+          "unit_krw": 700000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 700000,
+          "remark": null
+        },
+        {
+          "description": "Microphone and antenna system",
+          "unit_krw": 700000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 700000,
+          "remark": null
+        },
+        {
+          "description": "Sound engineer",
+          "unit_krw": 300000,
+          "qty": 1,
+          "unit": 1,
+          "amount_krw": 300000,
+          "remark": null
+        },
+        {
+          "description": "agency fee 12%",
+          "unit_krw": 37270000,
+          "qty": 0.12,
+          "unit": 1,
+          "amount_krw": 4472400,
+          "remark": null
+        },
+        {
+          "description": "If you have any questions about this quotation, please contact",
+          "unit_krw": null,
+          "qty": null,
+          "unit": "TOTAL Due",
+          "amount_krw": 45916640,
+          "remark": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "file_name": "Ustudio_Quo 20250311_(Code; Without Barriers - AI Agent Workshop)_Microsoft_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "Event management",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Workshop Planning and Organization | 2481818 | 1 | 1 | 2481818",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 2481818
+    },
+    {
+      "description": "agency fee 10% | 248181.80000000002 | 1 | 1 | 248181.80000000002",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 248181.80000000002
+    },
+    {
+      "description": "2729999.8",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 2729999.8
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 2729999.8",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 2729999.8
+    },
+    {
+      "description": "Tax rate | 0.1",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": 0.1
+    },
+    {
+      "description": "Tax due | 272999.98",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": 272999.98
+    },
+    {
+      "description": "Other | 0",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Other",
+      "amount": 0
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 3002999.78",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 3002999.78
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250430_(버카다 줌 영상 촬영 )_플랜트8_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "줌 영상 촬영",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 500000,
+      "remark": ""
+    },
+    {
+      "description": "줌 링크 제공및 시스템 콘솔",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "편집",
+      "unit_krw": 300000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 300000,
+      "remark": ""
+    },
+    {
+      "description": "에프터이펙트 작업 (모션)",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": "`"
+    },
+    {
+      "description": "컷 편집 작업",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "종합 편집",
+      "unit_krw": null,
+      "quantity": 1,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

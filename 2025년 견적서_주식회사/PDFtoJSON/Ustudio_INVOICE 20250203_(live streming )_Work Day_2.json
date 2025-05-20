@@ -1,0 +1,106 @@
+{
+  "견적번호": "20250203_1",
+  "견적일자": "2025-05-16",
+  "거래처명": "Seocho-gu, Seoul, Republic of Korea",
+  "카테고리": [
+    {
+      "category": "Planning",
+      "amount": 1000000,
+      "items": [
+        {
+          "품목명": "Planning and Program Organization",
+          "수량": 1,
+          "단가": 500000,
+          "금액": 500000
+        },
+        {
+          "품목명": "Design work (Video and Platform)",
+          "수량": 1,
+          "단가": 500000,
+          "금액": 500000
+        },
+        {
+          "품목명": "eDM (Edit source code)",
+          "수량": 1,
+          "단가": 250000,
+          "금액": 250000
+        }
+      ]
+    },
+    {
+      "category": "Event platform",
+      "amount": 1800000,
+      "items": [
+        {
+          "품목명": "Event-us (Streaming server)",
+          "수량": 500,
+          "단가": 3000,
+          "금액": 1500000
+        },
+        {
+          "품목명": "Platform landing page creation",
+          "수량": 1,
+          "단가": 300000,
+          "금액": 300000
+        }
+      ]
+    },
+    {
+      "category": "Recruiting guests",
+      "amount": 3000000,
+      "items": [
+        {
+          "품목명": "Event-us HR lead targeting sending",
+          "수량": 3000,
+          "단가": 1000,
+          "금액": 3000000
+        },
+        {
+          "품목명": "Event-us HR AD supporting",
+          "수량": 0,
+          "단가": 0,
+          "금액": 0
+        }
+      ]
+    },
+    {
+      "category": "Live streaming production",
+      "amount": 4000000,
+      "items": [
+        {
+          "품목명": "Camera",
+          "수량": 1,
+          "단가": 1000000,
+          "금액": 1000000
+        },
+        {
+          "품목명": "System console",
+          "수량": 1,
+          "단가": 1500000,
+          "금액": 1500000
+        },
+        {
+          "품목명": "Studio rental",
+          "수량": 1,
+          "단가": 500000,
+          "금액": 500000
+        },
+        {
+          "품목명": "Console staff",
+          "수량": 1,
+          "단가": 500000,
+          "금액": 500000
+        },
+        {
+          "품목명": "Lighting and other materials",
+          "수량": 1,
+          "단가": 500000,
+          "금액": 500000
+        }
+      ]
+    }
+  ],
+  "합계금액": 9800000,
+  "세액": 980000,
+  "총액": 11363000
+}

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "file_name": "Ustudio_Qou_20250507_(Figma_)_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "video product",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Planning and Program Organization (Wheel Talk) | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "Planning and Program Organization  (On Target) | 1000000 | 1 | 1 | 1000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1000000
+    },
+    {
+      "description": "Composing and building photography props | 3000000 | 2 | 1 | 6000000",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 6000000
+    },
+    {
+      "description": "Video production (Wheel Talk) | 4000000 | 5 | 1 | 20000000",
+      "quantity": 5,
+      "day": null,
+      "unit_price": 1,
+      "amount": 20000000
+    },
+    {
+      "description": "Video production (On Target) | 4000000 | 1 | 1 | 4000000",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 4000000
+    },
+    {
+      "description": "Video camera / Gimbal & Tripod /Lighting system /Studio",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Hair and makeup | 1000000 | 6 | 1 | 6000000",
+      "quantity": 6,
+      "day": null,
+      "unit_price": 1,
+      "amount": 6000000
+    },
+    {
+      "description": "Video editing master (Wheel Talk) | 3000000 | 5 | 1 | 15000000",
+      "quantity": 5,
+      "day": null,
+      "unit_price": 1,
+      "amount": 15000000
+    },
+    {
+      "description": "Video editing (Wheel Talk Cutdown ) | 600000 | 15 | 1 | 9000000",
+      "quantity": 15,
+      "day": null,
+      "unit_price": 1,
+      "amount": 9000000
+    },
+    {
+      "description": "Video editing master (On Target) | 3000000 | 5 | 1 | 15000000",
+      "quantity": 5,
+      "day": null,
+      "unit_price": 1,
+      "amount": 15000000
+    },
+    {
+      "description": "Video editing (On Target Cutdown ) | 600000 | 3 | 1 | 1800000",
+      "quantity": 3,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1800000
+    },
+    {
+      "description": "Subtitle editing | 50000 | 28 | 1 | 1400000",
+      "quantity": 28,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1400000
+    },
+    {
+      "description": "Design work /Cut editing / Motion graphics ( CG ) /Color correction | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "Image editing / BGM editing /Comprehensive compilation | 1 | 1",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": null
+    },
+    {
+      "description": "80200000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 80200000
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 80200000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 80200000
+    },
+    {
+      "description": "TOTAL Due | 88220000",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 88220000
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

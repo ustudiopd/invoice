@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "file_name": "Ustudio_INVOICE 20250411_(klarna Q2 event )_ver7.xlsx"
+  },
+  "items": [
+    {
+      "description": "Planning and Venue | 11040",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 11040
+    },
+    {
+      "description": "Venue and purchase items | 1300 | 1 | 1 | 1300",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1300
+    },
+    {
+      "description": "Welcome Coffee Break | 18 | 80 | 1 | 1440",
+      "quantity": 80,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1440
+    },
+    {
+      "description": "FOOD | 100 | 80 | 1 | 8000",
+      "quantity": 80,
+      "day": null,
+      "unit_price": 1,
+      "amount": 8000
+    },
+    {
+      "description": "Etc (Beam project , spaker) | 300 | 1 | 1 | 300",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 300
+    },
+    {
+      "description": "Event operations | 2040",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 2040
+    },
+    {
+      "description": "Planning and Program Organization | 350 | 1 | 1 | 350",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 350
+    },
+    {
+      "description": "PM | 200 | 2 | 1 | 400",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 400
+    },
+    {
+      "description": "Staff | 150 | 3 | 1 | 450",
+      "quantity": 3,
+      "day": null,
+      "unit_price": 1,
+      "amount": 450
+    },
+    {
+      "description": "Registration system (Event-us) | 200 | 1 | 1 | 200",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 200
+    },
+    {
+      "description": "Registration (QR , print, notebook) | 150 | 1 | 1 | 150",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 150
+    },
+    {
+      "description": "Name tag | 2 | 100 | 1 | 200",
+      "quantity": 100,
+      "day": null,
+      "unit_price": 1,
+      "amount": 200
+    },
+    {
+      "description": "Staff meals (lunch ) | 190 | 1 | 1 | 190",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 190
+    },
+    {
+      "description": "logistics cost (Installation and return) | 100 | 1 | 1 | 100",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 100
+    },
+    {
+      "description": "Gift & Rental | 2050",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 2050
+    },
+    {
+      "description": "Basic x banner | 80 | 2 | 1 | 160",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 160
+    },
+    {
+      "description": "Main banner | 200 | 2 | 1 | 400",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 400
+    },
+    {
+      "description": "Design | 200 | 1 | 1 | 200",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 200
+    },
+    {
+      "description": "Foam board (podium,lobby) | 150 | 1 | 1 | 150",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 150
+    },
+    {
+      "description": "Standing table | 40 | 20 | 1 | 800",
+      "quantity": 20,
+      "day": null,
+      "unit_price": 1,
+      "amount": 800
+    },
+    {
+      "description": "logistics cost (Installation and return) | 170 | 2 | 1 | 340",
+      "quantity": 2,
+      "day": null,
+      "unit_price": 1,
+      "amount": 340
+    },
+    {
+      "description": "AV system | 1250",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 1250
+    },
+    {
+      "description": "Av switcher | 600 | 1 | 1 | 600",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 600
+    },
+    {
+      "description": "Av system engineer | 300 | 1 | 1 | 300",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 300
+    },
+    {
+      "description": "Sound mixer | 350 | 1 | 1 | 350",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": 350
+    },
+    {
+      "description": "Total",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "agency fee 12% | 16380 | 0.12 | 1 | 1965.6",
+      "quantity": 0.12,
+      "day": null,
+      "unit_price": 1,
+      "amount": 1965.6
+    },
+    {
+      "description": "cut | -0.6 | 1 | 1 | -0.6",
+      "quantity": 1,
+      "day": null,
+      "unit_price": 1,
+      "amount": -0.6
+    },
+    {
+      "description": "18345",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": 18345
+    },
+    {
+      "description": "OTHER COMMENTS | TOTAL | 18345",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL",
+      "amount": 18345
+    },
+    {
+      "description": "Tax rate",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax rate",
+      "amount": null
+    },
+    {
+      "description": "Tax due",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Tax due",
+      "amount": null
+    },
+    {
+      "description": "Other | 0",
+      "quantity": null,
+      "day": null,
+      "unit_price": "Other",
+      "amount": 0
+    },
+    {
+      "description": "If you have any questions about this quotation, please contact | TOTAL Due | 18345",
+      "quantity": null,
+      "day": null,
+      "unit_price": "TOTAL Due",
+      "amount": 18345
+    },
+    {
+      "description": "U-STUDIO BS, support@ustudio.co.kr",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Thank You For Your Business!",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

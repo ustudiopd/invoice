@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250307_(현대자동차 )_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "기획 및 시나리오 작업",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 500000,
+      "remark": "1편 기준"
+    },
+    {
+      "description": "촬영 인력",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "촬영 인력",
+      "unit_krw": 500000,
+      "quantity": 2,
+      "unit": null,
+      "amount": 2000000,
+      "remark": "1편 경비 (2일기준)"
+    },
+    {
+      "description": "출장비",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1000000,
+      "remark": "1편 경비 (2일기준)"
+    },
+    {
+      "description": "촬영 장비",
+      "unit_krw": 1500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1500000,
+      "remark": "1편"
+    },
+    {
+      "description": "편집",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": "1편 제작 기준"
+    },
+    {
+      "description": "컷 편집",
+      "unit_krw": 500000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 500000,
+      "remark": ""
+    },
+    {
+      "description": "모션 및 캡션 작업(에프터이펙트)",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1000000,
+      "remark": ""
+    },
+    {
+      "description": "이미지 작업",
+      "unit_krw": 200000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 200000,
+      "remark": ""
+    },
+    {
+      "description": "BGM",
+      "unit_krw": 0,
+      "quantity": 1,
+      "unit": null,
+      "amount": 0,
+      "remark": ""
+    },
+    {
+      "description": "종합 편집",
+      "unit_krw": 1000000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 1000000,
+      "remark": ""
+    },
+    {
+      "description": "인력 편집 파견시",
+      "unit_krw": null,
+      "quantity": null,
+      "unit": null,
+      "amount": null,
+      "remark": ""
+    },
+    {
+      "description": "편집 인력 인건비",
+      "unit_krw": 400000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 400000,
+      "remark": ""
+    },
+    {
+      "description": "편집 인력 출장비",
+      "unit_krw": 400000,
+      "quantity": 1,
+      "unit": null,
+      "amount": 400000,
+      "remark": "왕복 경비"
+    },
+    {
+      "description": "1편 제작 비용",
+      "unit_krw": 8500000,
+      "quantity": 10,
+      "unit": null,
+      "amount": 85000000,
+      "remark": ""
+    }
+  ],
+  "header": {},
+  "summary": {}
+}

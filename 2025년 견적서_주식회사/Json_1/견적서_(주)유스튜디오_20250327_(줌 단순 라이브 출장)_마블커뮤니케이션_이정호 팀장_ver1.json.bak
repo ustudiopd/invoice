@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "file_name": "견적서_(주)유스튜디오_20250327_(줌 단순 라이브 출장)_마블커뮤니케이션_이정호 팀장_ver1.xlsx"
+  },
+  "items": [
+    {
+      "description": "노트북 마이크 화상 카메라 | 4 | 1 | 150000 | 600000",
+      "quantity": 4,
+      "day": 1,
+      "unit_price": 150000,
+      "amount": null
+    },
+    {
+      "description": "인력 | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "기타 사항",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "출장 및 셋팅비 | 1 | 1 | 200000 | 200000",
+      "quantity": 1,
+      "day": 1,
+      "unit_price": 200000,
+      "amount": null
+    },
+    {
+      "description": "경기 대전 | 1 | 0 | 300000 | 0",
+      "quantity": 1,
+      "day": 0,
+      "unit_price": 300000,
+      "amount": null
+    },
+    {
+      "description": "전라, 경상 | 1 | 0 | 500000 | 0",
+      "quantity": 1,
+      "day": 0,
+      "unit_price": 500000,
+      "amount": null
+    },
+    {
+      "description": "합               계 | 1000000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "V       A       T | 100000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "총               액 | 1100000",
+      "quantity": null,
+      "day": null,
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "header": {},
+  "summary": {}
+}
